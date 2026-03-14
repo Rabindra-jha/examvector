@@ -27,7 +27,7 @@ one-click retry of wrong answers only.
 
 **ExamVector** *(coming soon)*
 Topic-wise practice tests built to adapt to your progress —
-structured, detailed, and without a subscription fee.
+structured, detailed, and without a subscription fee for sometime.
 
 ## Built with
 
