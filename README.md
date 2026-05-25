@@ -1,4 +1,3 @@
-**Will be coming soon**
 # examvector — Exam Engine MVP
 
 A fully browser-based exam authoring and practice tool built for
@@ -26,10 +25,6 @@ Load any exam JSON and configure a session your way:
 Results include a percentage score, per-chapter breakdown, and
 one-click retry of wrong answers only.
 
-**ExamVector** *(coming soon)*
-Topic-wise practice tests built to adapt to your progress —
-structured, detailed, and without a subscription fee for sometime.
-
 ## Built with
 
 React · React Router · Tailwind CSS · Material Symbols
@@ -44,5 +39,8 @@ the browser, free to self-host or run locally.
 
 ## Getting started
 
-npm install
-npm run dev
+- Ensure you have node js installed
+- Extract the dist zip file.
+- Open command prompt, navigate to extracted dist->dist. Issue the command npx serve. It would install package necessary to run, once installed, it shall display the url to launch ExamVector in Browser.
+- Anything you would like to reach, email me rabindra.jha@hotmail.com
+
