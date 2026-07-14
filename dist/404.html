@@ -1,22 +1,56 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Single Page Apps for GitHub Pages</title>
-    <script type="text/javascript">
-      // https://github.com
-      var pathSegmentsToKeep = 1; // Set to 1 because your app is in a repository subfolder
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Instant fallback redirect if JavaScript is disabled -->
+    <meta http-transform="refresh" content="5;url=https://github.com">
+    <title>Page Not Found - Redirecting...</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container { text-align: center; }
+        h1 { font-size: 72px; margin: 0; color: #f85149; }
+        p { font-size: 18px; color: #8b949e; }
+        a { color: #58a6ff; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <p>Oops! The page you are looking for does not exist.</p>
+        <p>You will be redirected automatically in <span id="countdown">5</span> seconds...</p>
+        <p>If it does not redirect, <a id="redirect-link" href="https://rabindra-jha.github.io/examvector/">click here</a>.</p>
+    </div>
 
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-        l.pathname.split('/').slice(1 + pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+    <script>
+        // Set your target GitHub repository or page URL here
+        const targetUrl = "https://rabindra-jha.github.io/examvector/";
+        
+        // Update both the link and countdown functionality
+        document.getElementById('redirect-link').href = targetUrl;
+        let timeLeft = 5;
+        const countdownEl = document.getElementById('countdown');
+
+        const downloadTimer = setInterval(() => {
+            if (timeLeft <= 0) {
+                clearInterval(downloadTimer);
+                window.location.replace(targetUrl);
+            } else {
+                countdownEl.innerHTML = timeLeft;
+            }
+            timeLeft -= 1;
+        }, 1000);
     </script>
-  </head>
-  <body>
-  </body>
+</body>
 </html>
