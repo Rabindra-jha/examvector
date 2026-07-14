@@ -1,7 +1,7 @@
 name: Deploy Dist Folder to Pages
 on:
   push:
-    branches: ["main"] # Change this to "master" if your repository default branch is named master
+    branches: ["main"] # Change to "master" if your default branch is named master
 permissions:
   contents: read
   pages: write
@@ -20,7 +20,7 @@ jobs:
       - name: Upload dist folder artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # This tells GitHub to specifically host your dist folder contents
+          path: './dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
