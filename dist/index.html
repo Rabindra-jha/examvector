@@ -26,6 +26,17 @@
     }
   }(window.location))
 </script>
+  <script type="text/javascript">
+  // Force React Router to see the root path instead of the GitHub subfolder
+  (function() {
+    const repoName = '/' + window.location.pathname.split('/')[1] + '/';
+    if (window.location.pathname.startsWith(repoName)) {
+      const cleanPath = window.location.pathname.replace(repoName, '/');
+      window.history.replaceState(null, '', cleanPath + window.location.search + window.location.hash);
+    }
+  })();
+</script>
+
 </head>
 
 <body>
