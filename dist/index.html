@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image" href="/logo_ev.svg" />
+  <link rel="icon" type="image" href="./logo_ev.svg" />
   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;900&display=swap"
     rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
@@ -36,6 +36,26 @@
     }
   })();
 </script>
+  <script type="text/javascript">
+  // Invisible route virtualization for React Router
+  (function() {
+    const repoName = '/examvector';
+    if (window.location.pathname.startsWith(repoName)) {
+      const internalPath = window.location.pathname.replace(repoName, '') || '/';
+      // Safely trick React Router's internal path parser without changing the visible URL bar
+      try {
+        Object.defineProperty(window.location, 'pathname', {
+          get: function() { return internalPath; },
+          configurable: true
+        });
+      } catch (e) {
+        // Fallback if browser blocks direct redefinition
+        window.history.replaceState(null, '', internalPath + window.location.search + window.location.hash);
+      }
+    }
+  })();
+</script>
+
 
 </head>
 
