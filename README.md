@@ -39,8 +39,5 @@ the browser, free to self-host or run locally.
 
 ## Getting started
 
-- Ensure you have node js installed
-- Extract the dist zip file.
-- Open command prompt, navigate to extracted dist->dist. Issue the command npx serve. It would install package necessary to run, once installed, it shall display the url to launch ExamVector in Browser.
+- To access examvector go to https://rabindra-jha.github.io/examvector/
 - Anything you would like to reach, email me rabindra.jha@hotmail.com
-
