@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rabindra-jha.github.io/examvector/sitemap.xml
