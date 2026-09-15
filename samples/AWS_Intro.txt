@@ -1,0 +1,206 @@
+AWS Intro
+Author: RJ
+Chapter_001_AWS Basic Intro
+001_001_Topic_AWS Account Intro
+Q1. What is an AWS account primarily described as?
+A. A billing tool only
+B. A container for identities and resources
+C. A virtual machine
+D. A networking service
+Answer: B
+Explanation: An AWS account is fundamentally a container that holds both identities (users) and AWS resources. 
+________________________________________
+Q2. Which of the following are true about AWS account root users? (Select 2)
+A. They can be restricted using IAM policies
+B. They have full control over the account
+C. Each account has its own root user
+D. They start with no permissions
+Answer: B, C
+Explanation: Root users have unrestricted full access and are unique per account. They cannot be limited by IAM policies. 
+________________________________________
+Q3. What is required to create an AWS account?
+A. Username only
+B. Unique email and payment method
+C. Phone number only
+D. IAM role
+Answer: B
+Explanation: Each AWS account requires a unique email and a payment method (typically a credit card). 
+________________________________________
+Q4. What is the default access level for new IAM identities?
+A. Full access
+B. Read-only access
+C. No access
+D. Admin access
+Answer: C
+Explanation: IAM users, roles, and groups start with no permissions and must be explicitly granted access. 
+________________________________________
+Q5. Why do large organizations use multiple AWS accounts? (Select 2)
+A. To increase billing complexity
+B. To isolate environments and limit risk
+C. To improve security boundaries
+D. To avoid using IAM
+Answer: B, C
+Explanation: Multiple accounts help isolate environments (dev/test/prod) and reduce the blast radius of failures or breaches. 
+001_002_Topic_ AWS Account Creation and Free Plan
+Q1. What benefit does the AWS free plan provide to new users?
+A. Unlimited free services
+B. Free credits with no billing during usage
+C. No need for account verification
+D. Permanent free access to all services
+Answer: B
+Explanation: The free plan offers credits (up to a limit) and ensures no billing occurs while those credits are used. 
+________________________________________
+Q2. Which of the following steps are required during AWS account creation? (Select 2)
+A. Email verification
+B. Creating IAM roles
+C. Entering payment details
+D. Launching EC2 instance
+Answer: A, C
+Explanation: Users must verify their email and provide payment details (even for free plan accounts) during account setup. 
+________________________________________
+Q3. What happens if AWS detects a user has already used a free plan account?
+A. Account creation is blocked completely
+B. User must switch to paid plan
+C. Free credits are doubled
+D. IAM access is denied
+Answer: B
+Explanation: AWS may prevent multiple free plan accounts and require the user to proceed with a paid plan instead. 
+
+
+Chapter_002_AWS Fundamental
+
+002_001_Topic_AWS Public vs Private Services and Network Zones
+Q1. What distinguishes an AWS public service from a resource running inside a VPC?
+A. Billing model
+B. Networking access method
+C. Storage type
+D. Service cost
+Answer: B
+Explanation: The distinction is networking-based — public services (like S3 or IAM) are reached over public AWS endpoints, while VPC-hosted resources are network-isolated unless explicitly exposed.
+________________________________________
+Q2. Which of the following are core components of AWS networking? (Select 2)
+A. Public internet
+B. Virtual Private Cloud (VPC)
+C. IAM Zone
+D. Billing Zone
+Answer: A, B
+Explanation: AWS resources are reached either over the public internet (public services) or within a customer-defined VPC (private, isolated networking).
+________________________________________
+Q3. Where do resources with no public exposure typically run?
+A. Public Internet
+B. A public AWS endpoint
+C. Inside a VPC, in a private subnet
+D. IAM
+Answer: C
+Explanation: Resources placed in a private subnet within a VPC have no direct route to the internet unless a NAT gateway or similar is configured.
+________________________________________
+Q4. Which of the following statements are true about accessing AWS public services? (Select 2)
+A. They require internet connectivity
+B. They always bypass AWS's network entirely
+C. They are reached via public service endpoints
+D. They only run inside a VPC
+Answer: A, C
+Explanation: Public services like S3 and IAM expose public endpoints reachable over the internet; they are not confined to a VPC.
+________________________________________
+Q5. What is the role of an internet gateway attached to a VPC?
+A. Hosts IAM users
+B. Allows resources in public subnets to communicate with the internet
+C. Stores billing data
+D. Runs only EC2 instances
+Answer: B
+Explanation: An internet gateway is attached to a VPC to allow traffic between public subnets and the internet; without it, subnets remain fully private.
+002_002_Topic_AWS Global Infrastructure, Regions, AZs, and Resilience
+Q1. What is an AWS Region?
+A. A single data center
+B. A geographic area with full AWS infrastructure
+C. A networking service
+D. A billing zone
+Answer: B
+Explanation: A region is a geographic area containing a full deployment of AWS services like compute, storage, and databases. 
+________________________________________
+Q2. Which of the following are components of AWS global infrastructure? (Select 3)
+A. Regions
+B. Edge Locations
+C. Availability Zones
+D. IAM Policies
+Answer: A, B, C
+Explanation: AWS infrastructure consists of regions, edge locations, and availability zones; IAM policies are unrelated to infrastructure. 
+________________________________________
+Q3. What is the primary purpose of edge locations?
+A. Store IAM data
+B. Provide low-latency content delivery
+C. Manage billing
+D. Run databases
+Answer: B
+Explanation: Edge locations are used for content delivery and caching to reduce latency for end users. 
+________________________________________
+Q4. Which of the following statements about Availability Zones (AZs) are correct? (Select 2)
+A. AZs are isolated within a region
+B. AZs are globally shared
+C. AZs provide fault isolation
+D. AZs replace regions
+Answer: A, C
+Explanation: AZs are isolated zones within a region that help improve fault tolerance. 
+________________________________________
+Q5. What happens if one Availability Zone fails?
+A. Entire AWS fails
+B. All regions fail
+C. Other AZs in the region can still operate
+D. IAM stops working globally
+Answer: C
+Explanation: AZs are isolated, so failure of one does not impact others within the same region. 
+________________________________________
+Q6. Which of the following are characteristics of AWS Regions? (Select 2)
+A. They are globally isolated
+B. They automatically share data
+C. They provide geopolitical separation
+D. They are always located in the same country
+Answer: A, C
+Explanation: Regions are isolated and provide governance and compliance benefits based on geography. 
+________________________________________ Q7. What does it mean for an AWS service to be "global" in scope?
+A. It runs in a single AZ
+B. It operates independently of any single region and is accessible account-wide
+C. It runs only in one region
+D. It requires manual backup
+Answer: B
+Explanation: Global services (like IAM and Route 53) aren't tied to a specific region — they're managed once and apply across the account.
+________________________________________
+Q8. Which of the following are examples of global AWS services? (Select 2)
+A. IAM
+B. Route 53
+C. EC2
+D. RDS
+Answer: A, B
+Explanation: IAM and Route 53 operate at the account level rather than being deployed per-region, unlike EC2 or RDS.
+________________________________________
+Q9. What does it mean for an AWS service to be "regional" in scope?
+A. It runs everywhere
+B. It's deployed within a single region, typically spanning multiple AZs for redundancy
+C. It runs in one AZ only
+D. It has no redundancy
+Answer: B
+Explanation: Regional services like RDS Multi-AZ or S3 are provisioned within one region but are built to tolerate the failure of a single AZ.
+________________________________________
+Q10. Which of the following are benefits of designing an application to span multiple regions? (Select 2)
+A. Fault isolation from a single region's outage
+B. Guaranteed lower latency for all users
+C. Disaster recovery
+D. Reduced security
+Answer: A, C
+Explanation: Multi-region architectures protect against region-wide failures and support disaster recovery; latency isn't uniformly reduced just by adding regions.
+________________________________________
+Q11. What characterizes a service or deployment that is scoped to a single Availability Zone?
+A. It's replicated globally
+B. It has no redundancy beyond that one AZ and is vulnerable if it fails
+C. It spans multiple regions
+D. It relies on edge locations
+Answer: B
+Explanation: A single-AZ deployment (e.g., one EC2 instance with no Multi-AZ setup) has no protection if that AZ goes down.
+________________________________________
+Q12. Why do architects distribute workloads across multiple AZs within a region? (Select 2)
+A. To improve fault tolerance
+B. To reduce cost as the primary goal
+C. To increase availability
+D. To eliminate the need for IAM
+Answer: A, C
+Explanation: Spreading resources across AZs protects against a single AZ's failure and keeps the application available.

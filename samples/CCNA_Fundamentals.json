@@ -1,0 +1,1085 @@
+{
+  "exams": [
+    {
+      "id": "exam_001",
+      "subject": "CCNA Fundamentals",
+      "author": "Rabindra Jha",
+      "createdAt": "2026-09-14T16:11:05.980Z",
+      "chapters": [
+        {
+          "id": "ch_001",
+          "name": "Virtualization Fundamentals",
+          "topics": [
+            {
+              "id": "ch_001_t_001",
+              "name": "Data Center Architecture and Server Application Deployment",
+              "subtopics": [
+                {
+                  "id": "ch_001_t_001_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0001",
+                      "type": "single",
+                      "text": "Which of the following best describes the primary role of a data center in an organization?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "It provides wireless connectivity for end users."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "It hosts applications and data critical to business operations."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "It functions only as a backup facility for storage."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "It handles only external web traffic."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "Data centers are designed to host mission-critical applications and data that enable productivity and essential business functions.\n"
+                    },
+                    {
+                      "id": "q_0002",
+                      "type": "single",
+                      "text": "Why is it important for a data center to maintain high availability and uptime?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "To reduce software licensing costs"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Because user productivity depends on constant access to applications and data"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "To support faster Wi-Fi access for guests"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Because it ensures redundancy of network switches"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "If a data center goes offline, users lose access to essential systems, significantly impacting productivity and business continuity.\n"
+                    },
+                    {
+                      "id": "q_0003",
+                      "type": "multi",
+                      "text": "What are the two main operating systems commonly used in enterprise data centers? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Windows"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Linux"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "macOS"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "ChromeOS"
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_2"
+                      ],
+                      "explanation": "Data centers primarily run on Windows and Linux operating systems, as these support most enterprise-grade applications and workloads.\n"
+                    },
+                    {
+                      "id": "q_0004",
+                      "type": "multi",
+                      "text": "Which two problems can arise from running multiple applications on a single server operating system? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Applications may compete for CPU and memory resources."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "TCP/UDP port conflicts can occur between applications."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Applications automatically balance loads between each other."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Software updates become easier to manage."
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_2"
+                      ],
+                      "explanation": "Multiple applications can compete for limited hardware resources, and network port conflicts can occur if they use the same TCP or UDP ports.\n"
+                    },
+                    {
+                      "id": "q_0005",
+                      "type": "single",
+                      "text": "What best describes the recommended deployment model for applications in a data center?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Many applications per operating system"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "One application per shared network switch"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "One application per operating system per physical server"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "One operating system per network segment"
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "To avoid conflicts and ensure stability, data centers typically follow a one-to-one relationship between the application, operating system, and physical server.\n"
+                    },
+                    {
+                      "id": "q_0006",
+                      "type": "single",
+                      "text": "Why do software vendors often require each enterprise application to run on its own server?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "To increase the need for software licenses"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "To prevent resource and support conflicts between applications"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "To simplify cloud migration"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "To reduce energy consumption"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "Running applications separately ensures predictable performance, eliminates port or resource contention, and simplifies troubleshooting and vendor support.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ch_001_t_002",
+              "name": "Virtualization and Bare Metal Servers",
+              "subtopics": [
+                {
+                  "id": "ch_001_t_002_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0007",
+                      "type": "single",
+                      "text": "What does the term “bare metal server” refer to in data center environments?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "A server running multiple virtual machines"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "A server running a single OS directly on hardware"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "A virtualized machine running in the cloud"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "A server without storage capacity"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "A bare metal server refers to a physical machine with a one-to-one relationship between hardware and a single installed operating system, without any virtualization layer.\n"
+                    },
+                    {
+                      "id": "q_0008",
+                      "type": "multi",
+                      "text": "Which of the following were challenges with the traditional one-to-one server deployment model? (Select 3)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Resource underutilization"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Simplified scalability"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "High management overhead"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Increased hardware costs"
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_3",
+                        "o_4"
+                      ],
+                      "explanation": "Bare metal architectures suffered from underutilized hardware, higher operational and management complexity, and increased costs due to needing more physical servers for multiple applications.\n"
+                    },
+                    {
+                      "id": "q_0009",
+                      "type": "single",
+                      "text": "What is the primary role of a hypervisor in a virtualized environment?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "It manages storage and disk redundancy"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "It acts as the OS for applications"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "It allows multiple OS instances to run on one hardware platform"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "It replaces the need for physical servers entirely"
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "A hypervisor sits on top of the physical hardware and enables multiple virtualized operating systems to coexist independently on the same physical server.\n"
+                    },
+                    {
+                      "id": "q_0010",
+                      "type": "multi",
+                      "text": "Which of the following statements about resource management in a bare metal environment are true? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Some servers often have unused capacity"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Hardware resources are evenly distributed automatically"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Resource spikes in one server cannot leverage unused capacity of another"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "All servers share resources through a common hypervisor"
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_3"
+                      ],
+                      "explanation": "Each server in a bare metal setup is sized for its own application's estimated load. Since real usage rarely matches that estimate exactly, some servers end up with unused capacity while others run hot. Without a hypervisor pooling resources across machines, there's no way to shift spare capacity from an idle server to an overloaded one, resources aren't distributed automatically and there's no shared resource pool across servers.\n"
+                    },
+                    {
+                      "id": "q_0011",
+                      "type": "single",
+                      "text": "What is the term used for the physical machine that hosts virtual machines?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Guest"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "VM"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Host"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Node"
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "The physical machine in a virtualized environment is called a host; it provides CPU, memory, and storage resources to the virtual machines (guests).\n"
+                    },
+                    {
+                      "id": "q_0012",
+                      "type": "single",
+                      "text": "What is the relationship between hosts and guests in virtualization?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Guests manage hardware, hosts run applications"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Hosts provide hardware resources, guests use them"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Both hosts and guests share the same OS instance"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Hosts operate as VMs inside other guests"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "In virtualization, the host provides hardware resources such as CPU, RAM, and storage, which are consumed by guest virtual machines running their own OS.\n"
+                    },
+                    {
+                      "id": "q_0013",
+                      "type": "single",
+                      "text": "How does virtualization solve the inefficiency problem of bare metal servers?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "By requiring fewer applications per OS"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "By allocating separate hardware for each process"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "By allowing multiple OS instances on one server"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "By eliminating the need for an OS entirely"
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "Virtualization allows several independent OS instances (VMs) to run on a single physical host through a hypervisor, leading to better hardware utilization and scalability.\n\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch_002",
+          "name": "Understand L2 Switch Forwarding",
+          "topics": [
+            {
+              "id": "ch_002_t_001",
+              "name": "Layer 2 Switching — Big Picture Overview",
+              "subtopics": [
+                {
+                  "id": "ch_002_t_001_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0014",
+                      "type": "single",
+                      "text": "Which event causes a switch to add an entry to its MAC (CAM) table?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Receiving a frame and inspecting its source MAC address."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Receiving a frame and inspecting its destination MAC address."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Periodic ARP broadcasts only."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Manually configuring an IP address on an attached host."
+                        }
+                      ],
+                      "answers": [
+                        "o_1"
+                      ],
+                      "explanation": "Switches learn by examining the source MAC of incoming frames and recording which port that source MAC is reachable from; destination MACs are used for forwarding, not learning.\n"
+                    },
+                    {
+                      "id": "q_0015",
+                      "type": "single",
+                      "text": "What is the default MAC address table aging time on most switches?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "60 seconds"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "120 seconds"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "300 seconds"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "600 seconds"
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "The default aging timer is 300 seconds (5 minutes); entries expire if no frames are seen from that MAC within the timer.\n"
+                    },
+                    {
+                      "id": "q_0016",
+                      "type": "multi",
+                      "text": "Which of the following are forwarded out all other ports of a switch in a single VLAN? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Layer 2 broadcasts such as ARP requests."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Known unicast frames when the destination MAC is in the MAC table."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Unknown-destination unicast frames (flooding)."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Frames destined to a correctly learned MAC on the same switch."
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_3"
+                      ],
+                      "explanation": "Broadcasts are intentionally forwarded to all other ports in the LAN; unknown-destination unicast frames are flooded because the switch doesn't yet know which port the destination is on. Known unicast frames go only to the learned port, since the switch has already recorded that MAC's location.\n"
+                    },
+                    {
+                      "id": "q_0017",
+                      "type": "multi",
+                      "text": "Which protocols/applications commonly generate layer 2 broadcasts on an IPv4 LAN? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "ARP requests"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "DHCP discovery"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "IGMP membership reports"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "TCP three-way handshake"
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_2"
+                      ],
+                      "explanation": "ARP and DHCP use layer 2 broadcasts on IPv4 LANs. IGMP uses multicast (not broadcast), and TCP operates at higher layers and does not itself generate layer 2 broadcasts.\n"
+                    },
+                    {
+                      "id": "q_0018",
+                      "type": "single",
+                      "text": "Which term is another name for the MAC address table used by switches?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "NAT table"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "CAM table"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "ARP table"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Routing table"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "The MAC address table is often called the CAM (Content-Addressable Memory) table on switches; ARP is for IPv4-to-MAC mapping on hosts/routers, and routing tables are layer 3.\n"
+                    },
+                    {
+                      "id": "q_0019",
+                      "type": "single",
+                      "text": "If a switch receives a unicast frame whose destination MAC is present in its CAM table, what does it do?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Flood the frame out all ports."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Drop the frame."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Forward the frame only out the learned port for that MAC."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Change the destination MAC and forward."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "When the destination MAC is known, the switch forwards the frame only out the port associated with that MAC; it does not flood, drop, or alter MACs.\n"
+                    },
+                    {
+                      "id": "q_0020",
+                      "type": "multi",
+                      "text": "Which statements about flooding are true? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Flooding happens only for multicast traffic."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Flooding occurs for unknown-destination unicast frames."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Flooded frames are sent out all ports except the incoming port."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Flooding updates the switch’s MAC table with the destination MAC."
+                        }
+                      ],
+                      "answers": [
+                        "o_2",
+                        "o_3"
+                      ],
+                      "explanation": "Flooding applies only to unknown-destination unicast frames, sent out every port except the one it arrived on. The MAC table isn't updated from this, it only learns an address when that device itself sends a frame.\n"
+                    },
+                    {
+                      "id": "q_0021",
+                      "type": "single",
+                      "text": "Do layer 2 switches modify the source or destination MAC address inside forwarded frames?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Yes — they rewrite MACs for every hop."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Yes — they change source MAC but not destination MAC."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "No — they forward frames transparently without changing MAC addresses."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Only when STP is enabled."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "Switches are transparent at layer 2 and do not change the source or destination MAC addresses; they simply forward based on the MAC header and their MAC table.\n"
+                    },
+                    {
+                      "id": "q_0022",
+                      "type": "single",
+                      "text": "Which of the following best describes what a layer 2 switch cares about when making forwarding decisions?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Destination IP addresses and subnet masks."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Layer 4 port numbers (TCP/UDP)."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Destination MAC addresses in the Ethernet header."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Application payload content."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "Layer 2 switches forward frames based on the destination MAC address in the Ethernet header; higher-layer information is treated as payload and not used for switching decisions.\n"
+                    },
+                    {
+                      "id": "q_0023",
+                      "type": "multi",
+                      "text": "Which actions will allow a switch to learn where a host’s MAC address is located? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "The host sending a frame into the switch (source MAC observed)."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "The switch running a routing protocol and learning host IPs."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Manually configuring a static MAC-to-port entry on the switch."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "The host changing its IP address only (without sending frames)."
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_3"
+                      ],
+                      "explanation": "Switches learn dynamically when a host sends a frame (source MAC is recorded), and administrators can also configure static MAC-to-port entries. Routing protocols and mere IP changes without traffic do not populate the switch’s MAC table.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ch_002_t_002",
+              "name": "Predicting MAC Address Tables",
+              "subtopics": [
+                {
+                  "id": "ch_002_t_002_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0024",
+                      "type": "single",
+                      "text": "When a switch learns a MAC address, which field in a received frame does it use for learning?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Destination MAC address"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Source MAC address"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "VLAN ID field"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "EtherType field"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "Switches learn MAC addresses from the source MAC of frames that enter the switch, associating that address with the ingress port in the MAC table.\n"
+                    },
+                    {
+                      "id": "q_0025",
+                      "type": "multi",
+                      "text": "What information does a MAC address table contain for each entry? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Source IP address"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "MAC address"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Switch port number"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "VLAN name"
+                        }
+                      ],
+                      "answers": [
+                        "o_2",
+                        "o_3"
+                      ],
+                      "explanation": "Each entry in a MAC address table maps a MAC address to the specific switch port where that device was last seen.\n"
+                    },
+                    {
+                      "id": "q_0026",
+                      "type": "single",
+                      "text": "What happens to MAC address entries if a device remains inactive for 300 seconds?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "They are permanently stored."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "They are removed (aged out) of the MAC table."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "They are backed up to the startup configuration."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "They are sent to all neighboring switches."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "Switches age out MAC entries after 300 seconds of inactivity, freeing up space and maintaining current network topology.\n"
+                    },
+                    {
+                      "id": "q_0027",
+                      "type": "single",
+                      "text": "Which command is used on a Cisco switch to display all learned MAC addresses?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "show ip route"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "show arp"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "show mac address-table"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "show vlan"
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "The command show mac address-table displays all dynamically and statically learned MAC addresses with their respective associated switch ports.\n"
+                    },
+                    {
+                      "id": "q_0028",
+                      "type": "single",
+                      "text": "In a single VLAN, how does a switch decide where to forward a unicast frame?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "It consults the MAC table for the destination MAC."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "It forwards to all ports by default."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "It uses IP routing to determine the next hop."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "It rewrites the source MAC and sends to all VLANs."
+                        }
+                      ],
+                      "answers": [
+                        "o_1"
+                      ],
+                      "explanation": "The switch checks its MAC address table to find the output port associated with the destination MAC, ensuring efficient Layer 2 forwarding within the same VLAN.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ch_002_t_003",
+              "name": "MAC Address Table Aging and Refresh on Switches",
+              "subtopics": [
+                {
+                  "id": "ch_002_t_003_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0029",
+                      "type": "single",
+                      "text": "What is the default MAC address table aging time on a Cisco switch?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "100 seconds"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "300 seconds"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "600 seconds"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "900 seconds"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "The default aging time is 300 seconds (5 minutes), after which inactive MAC addresses are removed from the table.\n"
+                    },
+                    {
+                      "id": "q_0030",
+                      "type": "multi",
+                      "text": "What happens when the MAC aging timer expires for an entry? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "The entry is deleted from the MAC table."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "The switch disables the associated port."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "The entry is relearned once new frames are received."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "The MAC address is permanently blacklisted."
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_3"
+                      ],
+                      "explanation": "When the timer expires, the MAC entry is removed. The switch will relearn the MAC automatically the next time it sees a frame with that source address.\n"
+                    },
+                    {
+                      "id": "q_0031",
+                      "type": "single",
+                      "text": "Which command is used to modify the MAC address aging time on a Cisco switch?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "mac-address aging-time [value]"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "mac address-table aging-time [value]"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "switchport aging-time [value]"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "arp timeout [value]"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "The command mac address-table aging-time [value] allows administrators to change the MAC aging interval from its default of 300 seconds.\n"
+                    },
+                    {
+                      "id": "q_0032",
+                      "type": "single",
+                      "text": "If a host remains active by sending frames regularly, how does this affect its MAC table entry?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "The entry ages out regardless of activity."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "The aging timer resets each time a frame is received, keeping the entry active."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "The switch moves the entry to a backup table."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "The entry becomes static automatically."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "Each new frame from the host refreshes the timer for its MAC entry, ensuring it is active in the CAM table.\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch_003",
+          "name": "Cisco 802.1Q Trunking",
+          "topics": [
+            {
+              "id": "ch_003_t_001",
+              "name": "Cisco 802.1Q Trunking",
+              "subtopics": [
+                {
+                  "id": "ch_003_t_001_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0033",
+                      "type": "single",
+                      "text": "What problem does 802.1Q trunking solve between two switches?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "It increases port speed"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "It allows multiple VLANs to be carried over one link"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "It encrypts Layer 2 frames"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "It prevents ARP broadcasts"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "Trunking allows frames from multiple VLANs to traverse a single inter-switch link.\n"
+                    },
+                    {
+                      "id": "q_0034",
+                      "type": "single",
+                      "text": "Which header is added to frames sent across an 802.1Q trunk?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "MPLS label"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "PPP header"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "802.1Q VLAN tag"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "STP BPDU"
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "802.1Q inserts a VLAN tag identifying the VLAN to which the frame belongs.\n"
+                    },
+                    {
+                      "id": "q_0035",
+                      "type": "single",
+                      "text": "What is the purpose of the native VLAN on an 802.1Q trunk link?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "It carries only broadcast traffic across the trunk."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "It is the VLAN whose frames are sent untagged across the trunk."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "It disables VLAN tagging for all VLANs on that trunk."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "It is used exclusively for switch management traffic."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "On an 802.1Q trunk, frames belonging to the native VLAN are sent without a VLAN tag, while all other VLANs' frames carry an 802.1Q tag identifying their VLAN.\n"
+                    },
+                    {
+                      "id": "q_0036",
+                      "type": "single",
+                      "text": "What problem occurs if the native VLAN configured on one end of a trunk does not match the native VLAN on the other end?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "The trunk link automatically shuts down."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Untagged frames can be mis-associated with the wrong VLAN, causing a native VLAN mismatch."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "All VLANs on the trunk become tagged automatically to compensate."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "The switches renegotiate and pick the lower VLAN number as native."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "Since native VLAN frames are untagged, a mismatch means each switch assumes untagged traffic belongs to a different VLAN than the other side intends, which can leak traffic between VLANs and trigger a native VLAN mismatch warning (e.g., via CDP)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

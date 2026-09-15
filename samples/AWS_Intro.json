@@ -1,0 +1,747 @@
+{
+  "exams": [
+    {
+      "id": "exam_001",
+      "subject": "AWS Intro",
+      "author": "RJ",
+      "createdAt": "2026-09-14T16:10:20.043Z",
+      "chapters": [
+        {
+          "id": "ch_001",
+          "name": "AWS Basic Intro",
+          "topics": [
+            {
+              "id": "ch_001_t_001",
+              "name": "AWS Account Intro",
+              "subtopics": [
+                {
+                  "id": "ch_001_t_001_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0001",
+                      "type": "single",
+                      "text": "What is an AWS account primarily described as?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "A billing tool only"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "A container for identities and resources"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "A virtual machine"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "A networking service"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "An AWS account is fundamentally a container that holds both identities (users) and AWS resources."
+                    },
+                    {
+                      "id": "q_0002",
+                      "type": "multi",
+                      "text": "Which of the following are true about AWS account root users? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "They can be restricted using IAM policies"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "They have full control over the account"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Each account has its own root user"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "They start with no permissions"
+                        }
+                      ],
+                      "answers": [
+                        "o_2",
+                        "o_3"
+                      ],
+                      "explanation": "Root users have unrestricted full access and are unique per account. They cannot be limited by IAM policies."
+                    },
+                    {
+                      "id": "q_0003",
+                      "type": "single",
+                      "text": "What is required to create an AWS account?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Username only"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Unique email and payment method"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Phone number only"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "IAM role"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "Each AWS account requires a unique email and a payment method (typically a credit card)."
+                    },
+                    {
+                      "id": "q_0004",
+                      "type": "single",
+                      "text": "What is the default access level for new IAM identities?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Full access"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Read-only access"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "No access"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Admin access"
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "IAM users, roles, and groups start with no permissions and must be explicitly granted access."
+                    },
+                    {
+                      "id": "q_0005",
+                      "type": "multi",
+                      "text": "Why do large organizations use multiple AWS accounts? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "To increase billing complexity"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "To isolate environments and limit risk"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "To improve security boundaries"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "To avoid using IAM"
+                        }
+                      ],
+                      "answers": [
+                        "o_2",
+                        "o_3"
+                      ],
+                      "explanation": "Multiple accounts help isolate environments (dev/test/prod) and reduce the blast radius of failures or breaches."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ch_001_t_002",
+              "name": "AWS Account Creation and Free Plan",
+              "subtopics": [
+                {
+                  "id": "ch_001_t_002_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0006",
+                      "type": "single",
+                      "text": "What benefit does the AWS free plan provide to new users?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Unlimited free services"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Free credits with no billing during usage"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "No need for account verification"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Permanent free access to all services"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "The free plan offers credits (up to a limit) and ensures no billing occurs while those credits are used."
+                    },
+                    {
+                      "id": "q_0007",
+                      "type": "multi",
+                      "text": "Which of the following steps are required during AWS account creation? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Email verification"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Creating IAM roles"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Entering payment details"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Launching EC2 instance"
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_3"
+                      ],
+                      "explanation": "Users must verify their email and provide payment details (even for free plan accounts) during account setup."
+                    },
+                    {
+                      "id": "q_0008",
+                      "type": "single",
+                      "text": "What happens if AWS detects a user has already used a free plan account?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Account creation is blocked completely"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "User must switch to paid plan"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Free credits are doubled"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "IAM access is denied"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "AWS may prevent multiple free plan accounts and require the user to proceed with a paid plan instead.\n\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch_002",
+          "name": "AWS Fundamental",
+          "topics": [
+            {
+              "id": "ch_002_t_001",
+              "name": "AWS Public vs Private Services and Network Zones",
+              "subtopics": [
+                {
+                  "id": "ch_002_t_001_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0009",
+                      "type": "single",
+                      "text": "What distinguishes an AWS public service from a resource running inside a VPC?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Billing model"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Networking access method"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Storage type"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Service cost"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "The distinction is networking-based — public services (like S3 or IAM) are reached over public AWS endpoints, while VPC-hosted resources are network-isolated unless explicitly exposed."
+                    },
+                    {
+                      "id": "q_0010",
+                      "type": "multi",
+                      "text": "Which of the following are core components of AWS networking? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Public internet"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Virtual Private Cloud (VPC)"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "IAM Zone"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Billing Zone"
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_2"
+                      ],
+                      "explanation": "AWS resources are reached either over the public internet (public services) or within a customer-defined VPC (private, isolated networking)."
+                    },
+                    {
+                      "id": "q_0011",
+                      "type": "single",
+                      "text": "Where do resources with no public exposure typically run?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Public Internet"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "A public AWS endpoint"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Inside a VPC, in a private subnet"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "IAM"
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "Resources placed in a private subnet within a VPC have no direct route to the internet unless a NAT gateway or similar is configured."
+                    },
+                    {
+                      "id": "q_0012",
+                      "type": "multi",
+                      "text": "Which of the following statements are true about accessing AWS public services? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "They require internet connectivity"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "They always bypass AWS's network entirely"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "They are reached via public service endpoints"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "They only run inside a VPC"
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_3"
+                      ],
+                      "explanation": "Public services like S3 and IAM expose public endpoints reachable over the internet; they are not confined to a VPC."
+                    },
+                    {
+                      "id": "q_0013",
+                      "type": "single",
+                      "text": "What is the role of an internet gateway attached to a VPC?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Hosts IAM users"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Allows resources in public subnets to communicate with the internet"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Stores billing data"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Runs only EC2 instances"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "An internet gateway is attached to a VPC to allow traffic between public subnets and the internet; without it, subnets remain fully private."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ch_002_t_002",
+              "name": "AWS Global Infrastructure, Regions, AZs, and Resilience",
+              "subtopics": [
+                {
+                  "id": "ch_002_t_002_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0014",
+                      "type": "single",
+                      "text": "What is an AWS Region?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "A single data center"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "A geographic area with full AWS infrastructure"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "A networking service"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "A billing zone"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "A region is a geographic area containing a full deployment of AWS services like compute, storage, and databases."
+                    },
+                    {
+                      "id": "q_0015",
+                      "type": "multi",
+                      "text": "Which of the following are components of AWS global infrastructure? (Select 3)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Regions"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Edge Locations"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Availability Zones"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "IAM Policies"
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_2",
+                        "o_3"
+                      ],
+                      "explanation": "AWS infrastructure consists of regions, edge locations, and availability zones; IAM policies are unrelated to infrastructure."
+                    },
+                    {
+                      "id": "q_0016",
+                      "type": "single",
+                      "text": "What is the primary purpose of edge locations?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Store IAM data"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Provide low-latency content delivery"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Manage billing"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Run databases"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "Edge locations are used for content delivery and caching to reduce latency for end users."
+                    },
+                    {
+                      "id": "q_0017",
+                      "type": "multi",
+                      "text": "Which of the following statements about Availability Zones (AZs) are correct? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "AZs are isolated within a region"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "AZs are globally shared"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "AZs provide fault isolation"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "AZs replace regions"
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_3"
+                      ],
+                      "explanation": "AZs are isolated zones within a region that help improve fault tolerance."
+                    },
+                    {
+                      "id": "q_0018",
+                      "type": "single",
+                      "text": "What happens if one Availability Zone fails?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Entire AWS fails"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "All regions fail"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Other AZs in the region can still operate"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "IAM stops working globally"
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "AZs are isolated, so failure of one does not impact others within the same region."
+                    },
+                    {
+                      "id": "q_0019",
+                      "type": "single",
+                      "text": "Which of the following are characteristics of AWS Regions? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "They are globally isolated"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "They automatically share data"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "They provide geopolitical separation"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "They are always located in the same country"
+                        },
+                        {
+                          "id": "o_5",
+                          "text": "It runs in a single AZ"
+                        },
+                        {
+                          "id": "o_6",
+                          "text": "It operates independently of any single region and is accessible account-wide"
+                        },
+                        {
+                          "id": "o_7",
+                          "text": "It runs only in one region"
+                        },
+                        {
+                          "id": "o_8",
+                          "text": "It requires manual backup"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "Global services (like IAM and Route 53) aren't tied to a specific region — they're managed once and apply across the account."
+                    },
+                    {
+                      "id": "q_0020",
+                      "type": "multi",
+                      "text": "Which of the following are examples of global AWS services? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "IAM"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Route 53"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "EC2"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "RDS"
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_2"
+                      ],
+                      "explanation": "IAM and Route 53 operate at the account level rather than being deployed per-region, unlike EC2 or RDS."
+                    },
+                    {
+                      "id": "q_0021",
+                      "type": "single",
+                      "text": "What does it mean for an AWS service to be \"regional\" in scope?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "It runs everywhere"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "It's deployed within a single region, typically spanning multiple AZs for redundancy"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "It runs in one AZ only"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "It has no redundancy"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "Regional services like RDS Multi-AZ or S3 are provisioned within one region but are built to tolerate the failure of a single AZ."
+                    },
+                    {
+                      "id": "q_0022",
+                      "type": "multi",
+                      "text": "Which of the following are benefits of designing an application to span multiple regions? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Fault isolation from a single region's outage"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Guaranteed lower latency for all users"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Disaster recovery"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Reduced security"
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_3"
+                      ],
+                      "explanation": "Multi-region architectures protect against region-wide failures and support disaster recovery; latency isn't uniformly reduced just by adding regions."
+                    },
+                    {
+                      "id": "q_0023",
+                      "type": "single",
+                      "text": "What characterizes a service or deployment that is scoped to a single Availability Zone?",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "It's replicated globally"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "It has no redundancy beyond that one AZ and is vulnerable if it fails"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "It spans multiple regions"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "It relies on edge locations"
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "A single-AZ deployment (e.g., one EC2 instance with no Multi-AZ setup) has no protection if that AZ goes down."
+                    },
+                    {
+                      "id": "q_0024",
+                      "type": "multi",
+                      "text": "Why do architects distribute workloads across multiple AZs within a region? (Select 2)",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "To improve fault tolerance"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "To reduce cost as the primary goal"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "To increase availability"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "To eliminate the need for IAM"
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_3"
+                      ],
+                      "explanation": "Spreading resources across AZs protects against a single AZ's failure and keeps the application available.\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

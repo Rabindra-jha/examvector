@@ -1,0 +1,1611 @@
+{
+  "exams": [
+    {
+      "id": "exam_001",
+      "subject": "PMP Practice Set",
+      "author": "Rabindra Jha",
+      "createdAt": "2026-09-14T16:11:40.370Z",
+      "chapters": [
+        {
+          "id": "ch_001",
+          "name": "Scenario-Based Judgment",
+          "topics": [
+            {
+              "id": "ch_001_t_001",
+              "name": "Governance and Compliance in a Regulated Program",
+              "subtopics": [
+                {
+                  "id": "ch_001_t_001_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0001",
+                      "type": "single",
+                      "text": "Case Study A: A national insurance carrier is modernizing its claims and underwriting systems while remaining under active regulatory audit. The program spans several states, each with its own filing rules. Core policy-engine work follows a predictive plan because of regulatory sign-off requirements, while the customer-facing claims portal is being built iteratively. A prime systems integrator coordinates several smaller vendors. Executives want visible progress every quarter but are wary of compliance findings, and state-level teams currently escalate issues inconsistently: some raise everything immediately, others sit on problems too long. Regulatory guidance on data retention is still evolving, and interpretations differ by state office. Legacy claims data feeding the new system adds technical risk as integration deepens. The program also receives frequent change requests from both regulators and internal business units, and sponsors keep asking for steady, demonstrable value to justify continued funding.\n\nState teams are escalating issues inconsistently, and executives want predictable escalation without adding a heavy central approval layer. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Set up a single governance model that defines who decides what, clear escalation thresholds, and room for limited state-level variation."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Require every state team to escalate all decisions above a small dollar threshold to the program sponsor."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Leave each state's existing escalation habits in place and step in only when a specific conflict surfaces."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Tell state teams to keep doing what has worked for them and revisit the topic at the next steering committee."
+                        }
+                      ],
+                      "answers": [
+                        "o_1"
+                      ],
+                      "explanation": "\nSet up a single governance model that defines who decides what, clear escalation thresholds, and room for limited state-level variation.\nA defined governance structure, with clear decision rights, escalation thresholds, and bounded room for local variation, fixes the actual design problem instead of reacting case by case.\n\nOther options are incorrect\nRequiring every state team to escalate all decisions above a small dollar threshold to the program sponsor creates a bottleneck and treats a structural gap as a control failure.\nLeaving each state's existing escalation habits in place and stepping in only when a specific conflict surfaces only patches symptoms as they appear rather than fixing the inconsistency itself.\nTelling state teams to keep doing what has worked for them and revisiting the topic later leaves the ambiguity in place and delays a fix that's already needed.\n"
+                    },
+                    {
+                      "id": "q_0002",
+                      "type": "single",
+                      "text": "Case Study A: A national insurance carrier is modernizing its claims and underwriting systems while remaining under active regulatory audit. The program spans several states, each with its own filing rules. Core policy-engine work follows a predictive plan because of regulatory sign-off requirements, while the customer-facing claims portal is being built iteratively. A prime systems integrator coordinates several smaller vendors. Executives want visible progress every quarter but are wary of compliance findings, and state-level teams currently escalate issues inconsistently: some raise everything immediately, others sit on problems too long. Regulatory guidance on data retention is still evolving, and interpretations differ by state office. Legacy claims data feeding the new system adds technical risk as integration deepens. The program also receives frequent change requests from both regulators and internal business units, and sponsors keep asking for steady, demonstrable value to justify continued funding.\n\nNewly issued regulatory guidance on data retention is being interpreted differently by different state compliance offices, creating uncertainty about what the claims portal actually needs to store. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Let each state office keep interpreting the guidance on its own, since they know their local regulatory context best."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Pause any related development until every state office agrees on one interpretation."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Convene the relevant compliance leads, build a single agreed interpretation, and fold it directly into the program's requirements and plan."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Send every interpretation question up to the sponsor to decide."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nConvene the relevant compliance leads, build a single agreed interpretation, and fold it directly into the program's requirements and plan.\nBringing the compliance leads together to reach one shared interpretation, and then building it into the actual plan, removes ambiguity at its source rather than passing the problem along.\n\nOther options are incorrect\nLetting each state office keep interpreting the guidance on its own guarantees inconsistent controls across states.\nPausing any related development until every state office agrees on one interpretation stalls delivery unnecessarily.\nSending every interpretation question up to the sponsor turns a program-management task into an executive task it doesn't need to be.\n"
+                    },
+                    {
+                      "id": "q_0003",
+                      "type": "single",
+                      "text": "Case Study A: A national insurance carrier is modernizing its claims and underwriting systems while remaining under active regulatory audit. The program spans several states, each with its own filing rules. Core policy-engine work follows a predictive plan because of regulatory sign-off requirements, while the customer-facing claims portal is being built iteratively. A prime systems integrator coordinates several smaller vendors. Executives want visible progress every quarter but are wary of compliance findings, and state-level teams currently escalate issues inconsistently: some raise everything immediately, others sit on problems too long. Regulatory guidance on data retention is still evolving, and interpretations differ by state office. Legacy claims data feeding the new system adds technical risk as integration deepens. The program also receives frequent change requests from both regulators and internal business units, and sponsors keep asking for steady, demonstrable value to justify continued funding.\n\nAs integration with the legacy claims data progresses, several previously minor risks now show higher likelihood and impact, though not all of them have crossed the program's defined risk thresholds. The team is split on how hard to react. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Escalate every risk with increased exposure to the sponsor, regardless of whether it has crossed a threshold."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Re-score the affected risks, adjust response plans as needed, and act only on the ones that exceed defined thresholds."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Hold off on any action until a risk actually causes a schedule, cost, or compliance impact."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Apply the same mitigation steps across all flagged risks so nothing is missed."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "\nRe-score the affected risks, adjust response plans as needed, and act only on the ones that exceed defined thresholds.\nRe-scoring exposure and acting only where thresholds are actually breached keeps effort focused and respects the governance the program already set up.\n\nOther options are incorrect\nEscalating every risk with increased exposure to the sponsor, regardless of threshold, shifts ownership upward for issues the project manager should be handling.\nHolding off on any action until a risk actually causes a schedule, cost, or compliance impact turns risk management into pure issue management, losing the chance to act early.\nApplying the same mitigation steps across all flagged risks wastes effort on risks that may not need it.\n"
+                    },
+                    {
+                      "id": "q_0004",
+                      "type": "single",
+                      "text": "Case Study A: A national insurance carrier is modernizing its claims and underwriting systems while remaining under active regulatory audit. The program spans several states, each with its own filing rules. Core policy-engine work follows a predictive plan because of regulatory sign-off requirements, while the customer-facing claims portal is being built iteratively. A prime systems integrator coordinates several smaller vendors. Executives want visible progress every quarter but are wary of compliance findings, and state-level teams currently escalate issues inconsistently: some raise everything immediately, others sit on problems too long. Regulatory guidance on data retention is still evolving, and interpretations differ by state office. Legacy claims data feeding the new system adds technical risk as integration deepens. The program also receives frequent change requests from both regulators and internal business units, and sponsors keep asking for steady, demonstrable value to justify continued funding.\n\nRegulators and internal business units are both submitting change requests, and each one individually looks manageable, but the volume is starting to strain the delivery teams. Executives want to stay in control without slowing the program down. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Evaluate and approve each change request on its own, since none of them look large individually."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Hold off on all change decisions until delivery commitments are visibly at risk."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Group the pending changes together, evaluate their combined effect on schedule, risk, and capacity, and then present options."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Send every change request straight to the sponsor for a priority call."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nGroup the pending changes together, evaluate their combined effect on schedule, risk, and capacity, and then present options.\nLooking at the requests as a batch reveals cumulative strain that reviewing them one at a time would miss, and it lets the project manager present real tradeoffs instead of just approvals.\n\nOther options are incorrect\nEvaluating and approving each change request on its own, since none of them look large individually, lets scope and risk creep in unnoticed.\nHolding off on all change decisions until delivery commitments are visibly at risk removes options that exist right now.\nSending every change request straight to the sponsor for a priority call skips the project manager's own responsibility to filter and frame decisions.\n"
+                    },
+                    {
+                      "id": "q_0005",
+                      "type": "single",
+                      "text": "Case Study A: A national insurance carrier is modernizing its claims and underwriting systems while remaining under active regulatory audit. The program spans several states, each with its own filing rules. Core policy-engine work follows a predictive plan because of regulatory sign-off requirements, while the customer-facing claims portal is being built iteratively. A prime systems integrator coordinates several smaller vendors. Executives want visible progress every quarter but are wary of compliance findings, and state-level teams currently escalate issues inconsistently: some raise everything immediately, others sit on problems too long. Regulatory guidance on data retention is still evolving, and interpretations differ by state office. Legacy claims data feeding the new system adds technical risk as integration deepens. The program also receives frequent change requests from both regulators and internal business units, and sponsors keep asking for steady, demonstrable value to justify continued funding.\n\nDespite ongoing compliance pressure and integration risk, sponsors still want visible, demonstrable progress each quarter to justify continued funding. Several delivery paths are available, each with a different value versus risk profile. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Push forward with the full originally planned scope to show consistency with the original commitment."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Choose the delivery options that create the most value while staying within the program's compliance and risk boundaries."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Hold off on any value-related decisions until regulatory uncertainty fully settles."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Send the list of delivery options to the sponsor without a recommendation and let them choose."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "\nChoose the delivery options that create the most value while staying within the program's compliance and risk boundaries.\nActively selecting the options that maximize value within known constraints is what sustains sponsor confidence without taking on unacceptable exposure.\n\nOther options are incorrect\nPushing forward with the full originally planned scope to show consistency with the original commitment may no longer be the best value given how the situation has shifted.\nHolding off on any value-related decisions until regulatory uncertainty fully settles delays benefit unnecessarily.\nSending the list of delivery options to the sponsor without a recommendation skips the project manager's job of framing a recommendation for an informed decision.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ch_001_t_002",
+              "name": "Hybrid Delivery Under Market Pressure",
+              "subtopics": [
+                {
+                  "id": "ch_001_t_002_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0006",
+                      "type": "single",
+                      "text": "Case Study B: A retail bank is launching a new mobile-first banking product meant to replace three legacy apps at once. It's a strategic bet: leadership expects faster onboarding, lower support costs, and quicker response to fintech competitors. Stakeholder groups pull in different directions: the marketing team wants speed, operations wants stability, and branch staff care most about usability for less tech-savvy customers. Core account and ledger components follow a predictive plan for security and audit reasons, while customer-facing screens are built iteratively with regular user testing. Multiple workstreams depend on each other and move at different speeds. As execution continues, some stakeholders engage early and consistently while others raise concerns only late, scope keeps shifting in response to competitor moves, leadership has now tied the launch to a major banking conference which adds schedule pressure, some workstreams are ahead of plan while others lag due to dependencies and rework, and sponsors keep pushing for early partial releases to validate assumptions and show momentum.\n\nStakeholder engagement has been uneven, with some groups giving feedback early and consistently while others raise objections only near the end, and this is now causing rework and delay. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Keep the current engagement approach and hold stakeholders to the participation commitments they already agreed to."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Look at how the uneven engagement is actually affecting decisions, and adjust the engagement approach based on that."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Move key decisions to a smaller group of stakeholders who engage reliably, to reduce disruption."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Escalate every instance of late feedback to sponsors so there's accountability."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "\nLook at how the uneven engagement is actually affecting decisions, and adjust the engagement approach based on that.\nUnderstanding the actual impact of uneven engagement, and adjusting the approach based on that, treats this as an engagement-design problem rather than a compliance problem.\n\nOther options are incorrect\nKeeping the current engagement approach and holding stakeholders to commitments they already agreed to assumes the issue is discipline when it may be timing or relevance.\nMoving key decisions to a smaller group of stakeholders who engage reliably risks excluding voices whose late objections may resurface anyway.\nEscalating every instance of late feedback to sponsors doesn't fix why the lateness keeps happening and can erode trust if overused.\n"
+                    },
+                    {
+                      "id": "q_0007",
+                      "type": "single",
+                      "text": "Case Study B: A retail bank is launching a new mobile-first banking product meant to replace three legacy apps at once. It's a strategic bet: leadership expects faster onboarding, lower support costs, and quicker response to fintech competitors. Stakeholder groups pull in different directions: the marketing team wants speed, operations wants stability, and branch staff care most about usability for less tech-savvy customers. Core account and ledger components follow a predictive plan for security and audit reasons, while customer-facing screens are built iteratively with regular user testing. Multiple workstreams depend on each other and move at different speeds. As execution continues, some stakeholders engage early and consistently while others raise concerns only late, scope keeps shifting in response to competitor moves, leadership has now tied the launch to a major banking conference which adds schedule pressure, some workstreams are ahead of plan while others lag due to dependencies and rework, and sponsors keep pushing for early partial releases to validate assumptions and show momentum.\n\nStakeholders keep requesting scope and priority changes based on shifting competitor moves. Some workstream leads want to update their local plans freely to stay responsive; others worry this is eroding visibility into cross-team dependencies. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Let teams revise plans locally and rely on ongoing coordination meetings to catch new dependencies."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Only allow the integrated plan to change at pre-set checkpoints, to keep sequencing stable."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Keep the integrated plan as a living document, updating it with authorized changes so dependencies stay visible."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Push planning tradeoff decisions up to sponsors whenever responsiveness and coordination pull in different directions."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nKeep the integrated plan as a living document, updating it with authorized changes so dependencies stay visible.\nTreating the integrated plan as a living document, updated through a controlled process, keeps dependency visibility intact while still allowing legitimate change.\n\nOther options are incorrect\nLetting teams revise plans locally and relying on ongoing coordination meetings to catch new dependencies delays discovery of cross-team impacts.\nOnly allowing the integrated plan to change at pre-set checkpoints improves predictability but creates a growing gap between the plan and reality between checkpoints.\nPushing planning tradeoff decisions up to sponsors by default weakens the project manager's own planning role.\n"
+                    },
+                    {
+                      "id": "q_0008",
+                      "type": "single",
+                      "text": "Case Study B: A retail bank is launching a new mobile-first banking product meant to replace three legacy apps at once. It's a strategic bet: leadership expects faster onboarding, lower support costs, and quicker response to fintech competitors. Stakeholder groups pull in different directions: the marketing team wants speed, operations wants stability, and branch staff care most about usability for less tech-savvy customers. Core account and ledger components follow a predictive plan for security and audit reasons, while customer-facing screens are built iteratively with regular user testing. Multiple workstreams depend on each other and move at different speeds. As execution continues, some stakeholders engage early and consistently while others raise concerns only late, scope keeps shifting in response to competitor moves, leadership has now tied the launch to a major banking conference which adds schedule pressure, some workstreams are ahead of plan while others lag due to dependencies and rework, and sponsors keep pushing for early partial releases to validate assumptions and show momentum.\n\nLeadership has tied the launch date to a major banking conference, sharply increasing schedule pressure. Compressing the plan could hit the date but adds integration and quality risk; holding the current plan protects quality but risks missing the market window. Leadership wants a recommendation. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Build out a few distinct schedule options and clearly show how each affects scope, quality, and risk."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Push teams to work faster so the conference date is met as planned."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Hold the current plan and tell leadership that readiness matters more than the conference timing."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Wait to make any recommendation until integration and testing risks are fully resolved."
+                        }
+                      ],
+                      "answers": [
+                        "o_1"
+                      ],
+                      "explanation": "\nBuild out a few distinct schedule options and clearly show how each affects scope, quality, and risk.\nLaying out real options with their tradeoffs made explicit lets leadership make an informed, risk-aware call instead of the project manager guessing at their risk appetite.\n\nOther options are incorrect\nPushing teams to work faster so the conference date is met as planned risks defects and burnout without analysis.\nHolding the current plan and telling leadership that readiness matters more than the conference timing ignores the legitimate strategic value of the market window.\nWaiting to make any recommendation until integration and testing risks are fully resolved delays a decision leadership needs now.\n"
+                    },
+                    {
+                      "id": "q_0009",
+                      "type": "single",
+                      "text": "Case Study B: A retail bank is launching a new mobile-first banking product meant to replace three legacy apps at once. It's a strategic bet: leadership expects faster onboarding, lower support costs, and quicker response to fintech competitors. Stakeholder groups pull in different directions: the marketing team wants speed, operations wants stability, and branch staff care most about usability for less tech-savvy customers. Core account and ledger components follow a predictive plan for security and audit reasons, while customer-facing screens are built iteratively with regular user testing. Multiple workstreams depend on each other and move at different speeds. As execution continues, some stakeholders engage early and consistently while others raise concerns only late, scope keeps shifting in response to competitor moves, leadership has now tied the launch to a major banking conference which adds schedule pressure, some workstreams are ahead of plan while others lag due to dependencies and rework, and sponsors keep pushing for early partial releases to validate assumptions and show momentum.\n\nStatus reports show some workstreams ahead of schedule and others behind due to dependencies and rework. Each team's individual metrics look fine on their own, but stakeholders are reaching different conclusions about overall program health. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Share each team's metrics separately and let stakeholders form their own view of overall status."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Emphasize the workstreams that are doing well to keep stakeholder confidence up."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Pull metrics, dependency health, and trend data together into one consolidated view of program status."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Hold off on an overall status call until performance is more consistent across teams."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nPull metrics, dependency health, and trend data together into one consolidated view of program status.\nA single consolidated view, combining metrics, dependencies, and trends, gives stakeholders one accurate picture instead of letting them draw their own conclusions from fragments.\n\nOther options are incorrect\nSharing each team's metrics separately and letting stakeholders form their own view of overall status leaves the cross-team risk picture unclear.\nEmphasizing the workstreams that are doing well protects confidence short term but erodes trust once problems surface.\nHolding off on an overall status call until performance is more consistent across teams ignores that complex programs rarely progress evenly and delays needed visibility.\n"
+                    },
+                    {
+                      "id": "q_0010",
+                      "type": "single",
+                      "text": "Case Study B: A retail bank is launching a new mobile-first banking product meant to replace three legacy apps at once. It's a strategic bet: leadership expects faster onboarding, lower support costs, and quicker response to fintech competitors. Stakeholder groups pull in different directions: the marketing team wants speed, operations wants stability, and branch staff care most about usability for less tech-savvy customers. Core account and ledger components follow a predictive plan for security and audit reasons, while customer-facing screens are built iteratively with regular user testing. Multiple workstreams depend on each other and move at different speeds. As execution continues, some stakeholders engage early and consistently while others raise concerns only late, scope keeps shifting in response to competitor moves, leadership has now tied the launch to a major banking conference which adds schedule pressure, some workstreams are ahead of plan while others lag due to dependencies and rework, and sponsors keep pushing for early partial releases to validate assumptions and show momentum.\n\nAs the conference-tied launch date approaches, sponsors want visible progress. Options include a limited early release, delaying for more features, or holding the original scope despite readiness gaps. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Keep the full planned scope and accept some localized readiness gaps to preserve the original launch vision."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Define a limited release with clear value goals, acceptance criteria, and risk boundaries."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Delay any release until the full feature set is ready, to guarantee a consistent customer experience."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Present the current delivery status to sponsors and let them pick an option without a recommendation."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "\nDefine a limited release with clear value goals, acceptance criteria, and risk boundaries.\nDeliberately shaping a limited release, with explicit value goals, acceptance criteria, and risk boundaries, captures real value and learning without defaulting to either pure speed or pure completeness.\n\nOther options are incorrect\nKeeping the full planned scope and accepting some localized readiness gaps risks post-launch instability.\nDelaying any release until the full feature set is ready sacrifices achievable early value and momentum.\nPresenting the current delivery status to sponsors without a recommendation leaves sponsors without the framing the project manager is positioned to provide.\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch_002",
+          "name": "People and Team Leadership",
+          "topics": [
+            {
+              "id": "ch_002_t_001",
+              "name": "Cross-Team and Distributed Collaboration",
+              "subtopics": [
+                {
+                  "id": "ch_002_t_001_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0011",
+                      "type": "single",
+                      "text": "A logistics company is building a shared route-optimization platform with development split between Team North and Team South, working in different time zones. Team South hits a technical blocker that threatens to delay a component Team North is waiting on. Both teams are stuck waiting for direction. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Ask Team North to quietly adjust their own plan and absorb the likely delay from Team South."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Move the blocked work to a different team without telling Team South until the decision is final."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Tell the sponsor a delay is likely and wait for their guidance before doing anything else."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Bring both teams together in a joint session to work out options for keeping the shared task on track."
+                        }
+                      ],
+                      "answers": [
+                        "o_4"
+                      ],
+                      "explanation": "\nBring both teams together in a joint session to work out options for keeping the shared task on track.\nBringing the interdependent teams together to jointly solve the blocker is the project manager actively leading collaboration rather than letting either team absorb the impact alone.\n\nOther options are incorrect\nAsking Team North to quietly adjust their own plan and absorb the likely delay avoids addressing the shared dependency.\nMoving the blocked work to a different team without telling Team South damages trust and adds coordination risk.\nTelling the sponsor a delay is likely and waiting for guidance skips the chance to lead a solution at the project level.\n"
+                    },
+                    {
+                      "id": "q_0012",
+                      "type": "single",
+                      "text": "Near the end of a long-running program, the team adopts a few agile practices to become more responsive. Several members are new to these practices and are applying them inconsistently. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Give the agile-related work only to members who already have agile experience and keep others on support tasks."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Ask experienced members to casually share tips during meetings, without any structured approach."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Drop the new practices and continue with the original way of working to avoid confusing anyone."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Identify exactly where the knowledge gaps are and set up training so everyone understands how to apply the chosen practices."
+                        }
+                      ],
+                      "answers": [
+                        "o_4"
+                      ],
+                      "explanation": "\nIdentify exactly where the knowledge gaps are and set up training so everyone understands how to apply the chosen practices.\nPinpointing the specific gaps and building targeted training closes the inconsistency directly and builds capability across the whole team.\n\nOther options are incorrect\nGiving the agile-related work only to members who already have experience narrows capability-building and overloads a few people.\nAsking experienced members to casually share tips without a structured approach is unlikely to produce a consistent, reliable understanding.\nDropping the new practices to avoid confusing anyone avoids the gap instead of closing it and forfeits the intended benefit.\n"
+                    },
+                    {
+                      "id": "q_0013",
+                      "type": "single",
+                      "text": "A team adopting an iterative approach for the next phase of a complex upgrade includes several members who admit, in a planning workshop, that they've never worked iteratively before. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Have the inexperienced members observe for a few iterations before giving them meaningful work."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Assume they'll pick up iterative practices informally from peers as work progresses."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Set up targeted training so those members can work effectively within the new approach."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Delay switching to the iterative approach until all current work finishes under the old method."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nSet up targeted training so those members can work effectively within the new approach.\nTargeted training proactively closes the specific gap so the team can actually work the new way, rather than hoping it resolves itself.\n\nOther options are incorrect\nHaving the inexperienced members observe for a few iterations before giving them meaningful work delays their contribution and their learning.\nAssuming they'll pick up iterative practices informally from peers is inconsistent and may not be sufficient.\nDelaying the switch to the iterative approach avoids the gap and delays the benefits of iterative delivery.\n"
+                    },
+                    {
+                      "id": "q_0014",
+                      "type": "single",
+                      "text": "A retiring project manager on a hospital wing renovation is replaced mid-execution by a new one. The new PM observes the team communicating more openly than before and starting to settle into shared routines, though things aren't yet fully smooth. Which stage of team development does this describe?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Norming"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Forming"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Storming"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Performing"
+                        }
+                      ],
+                      "answers": [
+                        "o_1"
+                      ],
+                      "explanation": "\nNorming.\nThe team is moving past conflict and settling into shared processes and mutual respect, which is the defining trait of norming.\n\nOther options are incorrect\nForming describes early orientation, not post-conflict settling.\nStorming involves active conflict, which is subsiding here rather than present.\nPerforming implies a stable, high-functioning team, which hasn't been reached yet.\n"
+                    },
+                    {
+                      "id": "q_0015",
+                      "type": "single",
+                      "text": "A project manager is assembling a new team where members have never worked together before. Early meetings are polite but guarded, with lots of questions about how others prefer to communicate and make decisions. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Facilitate a session where the team builds its own working agreements together."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Hand the team the working rules used on another project and tell them to adopt them as-is."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Let the team operate without formal agreements for a few weeks and only intervene if problems come up."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Ask the sponsor to define how the team should communicate and behave."
+                        }
+                      ],
+                      "answers": [
+                        "o_1"
+                      ],
+                      "explanation": "\nFacilitate a session where the team builds its own working agreements together.\nFacilitating the team to co-create its own working agreements builds ownership and fit for this specific group.\n\nOther options are incorrect\nHanding the team working rules used on another project may not match this team's context and reduces their buy-in.\nLetting the team operate without formal agreements for a few weeks risks avoidable friction once work intensifies.\nAsking the sponsor to define how the team should communicate and behave hands off a responsibility that belongs to the team itself.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ch_002_t_002",
+              "name": "Onboarding, Capability, and Knowledge Transfer",
+              "subtopics": [
+                {
+                  "id": "ch_002_t_002_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0016",
+                      "type": "single",
+                      "text": "A multi-year compliance initiative trained its original team thoroughly at kickoff. A year in, productivity has dropped as new joiners make basic mistakes and interrupt experienced colleagues, and retrospectives reveal they never got the same onboarding. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Run individual coaching sessions with each new joiner to fix their recent mistakes."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Hold a dedicated onboarding session for newer members and pair them with experienced mentors."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Give complex work only to the original team members and keep newer joiners on routine tasks."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Send the original kickoff materials to new joiners and ask them to review it independently."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "\nHold a dedicated onboarding session for newer members and pair them with experienced mentors.\nA structured onboarding session paired with mentoring closes the gap systematically and puts existing expertise to direct use.\n\nOther options are incorrect\nRunning individual coaching sessions with each new joiner doesn't scale as more people join.\nGiving complex work only to the original team members protects short-term output but blocks capability growth.\nSending the original kickoff materials to new joiners is passive and doesn't confirm understanding.\n"
+                    },
+                    {
+                      "id": "q_0017",
+                      "type": "single",
+                      "text": "A network-upgrade project was originally scoped for 16 weeks. The sponsor now wants it in 12, but the one specialist the plan depends on is committed full-time elsewhere, and the sponsor insists the 12-week date is fixed. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Explain that 12 weeks isn't achievable without the specialist and request additional resourcing."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Agree to the 12-week date and have the specialist split time across both commitments."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Cut planned testing time to fit the compressed schedule while keeping current staffing."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Quietly drop lower-priority scope to hit the date without consulting stakeholders."
+                        }
+                      ],
+                      "answers": [
+                        "o_1"
+                      ],
+                      "explanation": "\nExplain that 12 weeks isn't achievable without the specialist and request additional resourcing.\nBeing direct about the resourcing gap and proposing a real fix preserves both honesty and delivery quality, since the schedule the sponsor wants simply isn't compatible with current resourcing.\n\nOther options are incorrect\nAgreeing to the 12-week date and having the specialist split time across both commitments risks burnout and quality issues without solving the capacity problem.\nCutting planned testing time to fit the compressed schedule trades quality for schedule without addressing the actual constraint.\nQuietly dropping lower-priority scope without consulting stakeholders bypasses stakeholders who should be part of that tradeoff.\n"
+                    },
+                    {
+                      "id": "q_0018",
+                      "type": "single",
+                      "text": "After several product demos, the development team seems eager to leave meetings quickly, and stakeholder feedback has turned sharply critical with fewer questions and more tension. The project manager suspects the team is losing confidence and disengaging. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Ask stakeholders to send all feedback in writing afterward and discourage live questions."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Shorten the demo sessions to reduce the team's exposure to criticism."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Take over running future demos personally while the team observes."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Coach the team on presenting confidently and encourage open dialogue with stakeholders during demos."
+                        }
+                      ],
+                      "answers": [
+                        "o_4"
+                      ],
+                      "explanation": "\nCoach the team on presenting confidently and encourage open dialogue with stakeholders during demos.\nCoaching the team to present with confidence and engage in dialogue directly addresses the confidence and communication gap causing the friction.\n\nOther options are incorrect\nAsking stakeholders to send all feedback in writing afterward reduces real-time interaction and doesn't build the team's ability to handle live discussion.\nShortening the demo sessions avoids the issue rather than resolving it.\nTaking over running future demos personally sidelines the team further and can erode their ownership.\n"
+                    },
+                    {
+                      "id": "q_0019",
+                      "type": "single",
+                      "text": "Midway through an automation rollout, the one team member with deep integration expertise is reassigned elsewhere. No one else has comparable knowledge, integration work is approaching, and morale is dropping. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Immediately demand the resource manager reverse the reassignment."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Redistribute the departing expert's tasks across the team without further analysis."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Tell the sponsor the project will be delayed and ask them to break the news to the team."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Acknowledge the team's concern and assess the actual impact on scope, schedule, and quality before deciding next steps."
+                        }
+                      ],
+                      "answers": [
+                        "o_4"
+                      ],
+                      "explanation": "\nAcknowledge the team's concern and assess the actual impact on scope, schedule, and quality before deciding next steps.\nAcknowledging the concern while assessing real impact grounds the response in facts before committing to a course of action.\n\nOther options are incorrect\nImmediately demanding the resource manager reverse the reassignment is reactive and may not be feasible.\nRedistributing the departing expert's tasks across the team without further analysis risks overload and doesn't address the missing expertise.\nTelling the sponsor the project will be delayed before analysis undercuts the project manager's own problem-solving role.\n"
+                    },
+                    {
+                      "id": "q_0020",
+                      "type": "single",
+                      "text": "A patient-portal enhancement project delivers in iterations against a fixed budget. Testing keeps overflowing each iteration because stories are too large and acceptance criteria are vague, and scope pressure keeps adding more. The project manager worries rushed testing will cause production defects. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Extend each iteration's length without changing how the backlog is structured."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Ask stakeholders to freeze new requests until the testing backlog clears."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Add testers on overtime while keeping the same stories and iteration cadence."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Work with the team to clarify acceptance criteria before stories enter an iteration."
+                        }
+                      ],
+                      "answers": [
+                        "o_4"
+                      ],
+                      "explanation": "\nWork with the team to clarify acceptance criteria before stories enter an iteration.\nClarifying acceptance criteria up front fixes the actual scope-definition problem driving the testing overflow.\n\nOther options are incorrect\nExtending each iteration's length works around the symptom rather than the cause.\nAsking stakeholders to freeze new requests limits intake but doesn't fix how existing scope is defined.\nAdding testers on overtime treats a design problem as a capacity problem.\n"
+                    },
+                    {
+                      "id": "q_0021",
+                      "type": "single",
+                      "text": "On a shared data-migration effort, a vendor engineer and an internal analyst have an escalating conflict, and tense meetings are now delaying resolution and affecting joint deliverables. What should the project manager do first?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Reassign the internal analyst to different work to reduce tension."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Escalate immediately to the sponsor and ask for formal intervention with the vendor's leadership."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Meet with the vendor's representative first to understand their side of the situation."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Send an email instructing both individuals to resolve things and refocus on deadlines."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nMeet with the vendor's representative first to understand their side of the situation.\nStarting with the vendor's perspective gathers the information needed before choosing how to resolve the conflict.\n\nOther options are incorrect\nReassigning the internal analyst to different work skips root-cause understanding and may damage morale.\nEscalating immediately to the sponsor bypasses the project manager's own responsibility to attempt resolution first.\nSending a directive email doesn't engage with the actual underlying issue.\n"
+                    },
+                    {
+                      "id": "q_0022",
+                      "type": "single",
+                      "text": "A manufacturing software firm just formed a company-wide architecture review board, but the project manager notices this hasn't yet shown up as backlog items, despite being discussed at the leadership level. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Pause all current work until the review board updates the team's stories directly."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Discuss the new architecture direction with the product owner and team to see how it should affect the backlog."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Tell the team to ignore the new direction until the current release ships."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Ask the review board to assign an architect to the team without looping in the product owner."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "\nDiscuss the new architecture direction with the product owner and team to see how it should affect the backlog.\nDiscussing the change with the product owner and team translates a leadership-level decision into concrete backlog impact.\n\nOther options are incorrect\nPausing all current work until the review board updates the stories directly is disproportionate without knowing the specific impact.\nTelling the team to ignore the new direction risks rework once alignment is eventually required.\nAsking the review board to assign an architect without looping in the product owner sidesteps the person accountable for backlog priorities.\n"
+                    },
+                    {
+                      "id": "q_0023",
+                      "type": "single",
+                      "text": "A fully remote team spread across three time zones keeps missing updates on its shared work-tracking board because members assume different things about what's visible and prioritized, creating confusion. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Stop using the board and switch to individual end-of-day status emails."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Wait until the next iteration review to decide whether the board issue needs fixing."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Fix the board so it accurately reflects current work and status for the team and stakeholders."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Restrict board access to the project manager and share screenshots as needed."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nFix the board so it accurately reflects current work and status for the team and stakeholders.\nRestoring an accurate, shared tracking tool gives a distributed team the transparency it depends on.\n\nOther options are incorrect\nSwitching to individual end-of-day status emails adds overhead and loses real-time visibility.\nWaiting until the next iteration review prolongs the confusion.\nRestricting board access to the project manager creates a bottleneck and undermines transparency.\n"
+                    },
+                    {
+                      "id": "q_0024",
+                      "type": "single",
+                      "text": "On a small but critical finance-sector project, a new specialist replaces a departing contributor. An influential stakeholder complains the specialist's style is disruptive, but the project manager hasn't observed this directly. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Ask the stakeholder to formally request the specialist's removal."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Meet with the new specialist to understand their approach and check alignment with project and team goals."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Instruct the specialist to copy their predecessor's exact methods without discussion."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Wait and see if the concern resolves itself."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "\nMeet with the new specialist to understand their approach and check alignment with project and team goals.\nMeeting directly with the new specialist gathers real information and opens the door to alignment before anything more drastic happens.\n\nOther options are incorrect\nAsking the stakeholder to formally request the specialist's removal escalates without exploring whether alignment is possible.\nInstructing the specialist to copy their predecessor's exact methods can demotivate the new hire and waste their strengths.\nWaiting to see if the concern resolves itself risks it growing into a bigger issue.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ch_002_t_003",
+              "name": "Constraints, Value, and Trade-offs",
+              "subtopics": [
+                {
+                  "id": "ch_002_t_003_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0025",
+                      "type": "single",
+                      "text": "A product team reliably delivering incremental upgrades is asked to make an urgent revision before a three-month deadline, after which a competitor's release could make the product obsolete. The team lacks the specific skill needed, though the sponsor can flex the budget, and the date can't move. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Let the current team attempt the work and pick up the new skill as they go, accepting schedule risk."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Work with the product owner to weigh resourcing options and pick the one that best fits the schedule and available budget."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Turn down the revision request outright to protect the existing plan and date."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Ask the sponsor to cut other scope so the current team has more time, without changing who's staffed."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "\nWork with the product owner to weigh resourcing options and pick the one that best fits the schedule and available budget.\nWorking with the product owner to evaluate resourcing options, given a fixed date and flexible budget, matches capability to the constraint that's actually movable.\n\nOther options are incorrect\nLetting the current team attempt the work and pick up the new skill as they go risks missing the critical date.\nTurning down the revision request outright forecloses a potentially valuable option without exploring it.\nAsking the sponsor to cut other scope without addressing the skill gap may still leave the team unable to deliver the revision.\n"
+                    },
+                    {
+                      "id": "q_0026",
+                      "type": "single",
+                      "text": "During a two-week sprint, the team realizes in a daily standup that a planned testing task was missed. It's completed later that day, but tension from the mix-up lingers into later interactions. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Ask the sponsor to remind the team how important it is to meet sprint commitments."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Call the team out at the next standup to reinforce accountability."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Facilitate a discussion at the retrospective and agree on ways to prevent a repeat."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Update the schedule to note the delay and move on since the task is done."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nFacilitate a discussion at the retrospective and agree on ways to prevent a repeat.\nUsing the retrospective to surface what actually happened and agree on preventive steps addresses both the lingering tension and the process gap behind it.\n\nOther options are incorrect\nAsking the sponsor to remind the team how important it is to meet sprint commitments escalates something the team can resolve itself.\nCalling the team out at the next standup risks raising tension and reducing psychological safety.\nUpdating the schedule to note the delay and moving on ignores the interpersonal friction that's still affecting the team.\n"
+                    },
+                    {
+                      "id": "q_0027",
+                      "type": "multi",
+                      "text": "A help-desk platform rollout is slipping because junior team members keep missing deadlines. Senior specialists are frustrated about rework, and juniors say they don't know which steps actually matter. The same kinds of tasks keep getting redone. What should the project manager do? (Choose 2)\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Co-design short training sessions and simple completion checklists with the team, tied to what the project actually needs."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Move complex work to senior specialists and keep juniors on low-risk tasks only."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Hold a joint discussion between senior and junior members to identify the specific blockers behind missed tasks."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Set tighter individual deadlines for juniors and escalate any misses to their functional managers."
+                        },
+                        {
+                          "id": "o_5",
+                          "text": "Have senior specialists write down their preferred detailed procedures and require juniors to follow them exactly."
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_3"
+                      ],
+                      "explanation": "\nCo-design short training sessions and simple completion checklists with the team, tied to what the project actually needs. Hold a joint discussion between senior and junior members to identify the specific blockers behind missed tasks.\nCo-designing training and checklists, alongside a joint discussion to surface the real blockers, tackles both the skills gap and the clarity gap collaboratively.\n\nOther options are incorrect\nMoving complex work to senior specialists and keeping juniors on low-risk tasks only avoids building their capability.\nSetting tighter individual deadlines and escalating misses to functional managers adds pressure without resolving the underlying confusion.\nHaving senior specialists write down their preferred procedures and requiring juniors to follow them exactly imposes a single way of working rather than clarifying what the project actually needs.\n"
+                    },
+                    {
+                      "id": "q_0028",
+                      "type": "single",
+                      "text": "A long-standing, high-performing remote team member recently experienced a personal loss. Their output has dropped, the project is slipping as a result, and teammates are privately frustrated, though nothing has been discussed openly. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Move all of their work to others and tell the team it's due to performance concerns."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Speak with the team member privately, acknowledge the situation, and work out a plan for their responsibilities and support."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Send a general reminder to the team that deadlines still apply regardless of personal circumstances."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Lower their next performance rating quietly, without addressing the situation directly."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "\nSpeak with the team member privately, acknowledge the situation, and work out a plan for their responsibilities and support.\nA private, supportive conversation that leads to a workable plan treats the person with care while still protecting delivery.\n\nOther options are incorrect\nMoving all of their work to others and telling the team it's due to performance concerns stigmatizes them and misrepresents the situation.\nSending a general reminder to the team ignores the specific circumstance and can feel tone-deaf.\nLowering their next performance rating quietly avoids the conversation entirely and penalizes them without support.\n"
+                    },
+                    {
+                      "id": "q_0029",
+                      "type": "single",
+                      "text": "Staff frequently rotate in and out of a transformation project from different departments to lend expertise. New arrivals need repeated explanations, and their insights often aren't captured before they leave. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Have rotating staff only observe and hold off on contributing until they're fully up to speed."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Ask each rotating member to write a short summary of their experience when they leave."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Ask department heads to pause rotations until the project is closer to done."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Set up structured onboarding for rotating staff so they can quickly apply their expertise and share it consistently."
+                        }
+                      ],
+                      "answers": [
+                        "o_4"
+                      ],
+                      "explanation": "\nSet up structured onboarding for rotating staff so they can quickly apply their expertise and share it consistently.\nA structured, repeatable onboarding process captures rotating expertise as it happens rather than after the fact.\n\nOther options are incorrect\nHaving rotating staff only observe wastes available expertise and delays their contribution.\nAsking each rotating member to write a short summary when they leave comes too late for real-time use.\nAsking department heads to pause rotations removes a resource the project relies on and may not be organizationally realistic.\n"
+                    },
+                    {
+                      "id": "q_0030",
+                      "type": "single",
+                      "text": "A cross-functional agile team has finished three iterations. The product owner has recently invested more effort in backlog refinement, breaking items down and clarifying acceptance criteria, and the project manager wants to know if it's actually helping. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Ask the sponsor to judge performance based on total hours logged each iteration."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Track stories completed per iteration and use that data to guide conversations about progress with the team."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Compare planned versus actual start dates for each story to judge whether refinement is working."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Measure post-release defects to determine whether the team is working efficiently."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "\nTrack stories completed per iteration and use that data to guide conversations about progress with the team.\nStories completed per iteration is a direct, relevant measure of whether refinement is translating into finished work, and it supports a useful conversation with the team.\n\nOther options are incorrect\nAsking the sponsor to judge performance based on total hours logged measures effort, not outcomes.\nComparing planned versus actual start dates doesn't show whether work is actually finishing within the iteration.\nMeasuring post-release defects measures quality, not whether refinement is improving completion rates.\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch_003",
+          "name": "Stakeholder, Process, and Delivery Decisions",
+          "topics": [
+            {
+              "id": "ch_003_t_001",
+              "name": "Working Within and Around Constraints",
+              "subtopics": [
+                {
+                  "id": "ch_003_t_001_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0031",
+                      "type": "single",
+                      "text": "A biotech firm needs a rare specialist for a data-platform build. The only qualified candidate is overseas, and their work-visa process is taking longer than expected, putting key development at risk. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Pause all work that depends on the specialist until the visa comes through."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Escalate to senior management and ask them to push authorities to speed up the visa."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Ask the specialist to begin contributing remotely while the visa process continues."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Replace the specialist with a less-qualified local hire who can start immediately."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nAsk the specialist to begin contributing remotely while the visa process continues.\nStarting remote contribution keeps work moving using the expertise already identified, without waiting on a process outside the project manager's control.\n\nOther options are incorrect\nPausing all work that depends on the specialist causes avoidable delay.\nEscalating to senior management to push authorities focuses on a lever the project manager doesn't control instead of one they do.\nReplacing the specialist with a less-qualified local hire risks quality and rework that could cost more than the delay it avoids.\n"
+                    },
+                    {
+                      "id": "q_0032",
+                      "type": "single",
+                      "text": "A technically strong agile team resolves issues quickly each iteration, but most new ideas still come from the product owner, and the team seems reluctant to contribute beyond technical execution. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Ask the product owner to stop requesting creative input and stick to detailed technical specs."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Have one senior developer generate business ideas ahead of each refinement session."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Work with the team to understand what's limiting their creative contribution and find ways to open it up."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Add an extra hour to refinement sessions without changing how the discussion is run."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nWork with the team to understand what's limiting their creative contribution and find ways to open it up.\nExploring with the team what's actually limiting their input builds psychological safety and shared ownership of the fix, rather than imposing a solution.\n\nOther options are incorrect\nAsking the product owner to stop requesting creative input narrows the team's role further.\nHaving one senior developer generate business ideas doesn't address the lack of broader participation.\nAdding an extra hour to refinement sessions doesn't change the dynamic causing the hesitation.\n"
+                    },
+                    {
+                      "id": "q_0033",
+                      "type": "single",
+                      "text": "A product owner is unhappy that a newly completed feature doesn't match what they had in mind, even though developers built exactly what the story specified. The acceptance criteria were vague. The team wants to avoid repeating this. What should the project team do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Have the project manager approve all design decisions so nothing can be challenged later."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Insist the product owner sign off on anything that meets the literal story text."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Add extra features the team thinks add value, to reduce future complaints."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Work with the product owner to tighten vague requirements and refine acceptance criteria before development starts."
+                        }
+                      ],
+                      "answers": [
+                        "o_4"
+                      ],
+                      "explanation": "\nWork with the product owner to tighten vague requirements and refine acceptance criteria before development starts.\nWorking directly with the product owner to sharpen requirements and acceptance criteria closes the gap in shared understanding that caused the mismatch.\n\nOther options are incorrect\nHaving the project manager approve all design decisions doesn't fix the collaboration gap with the product owner.\nInsisting the product owner sign off on a literal reading papers over the disagreement instead of resolving it.\nAdding extra features the team thinks add value adds scope creep, not alignment.\n"
+                    },
+                    {
+                      "id": "q_0034",
+                      "type": "single",
+                      "text": "During a status meeting full of time-sensitive agenda items, a key team member unexpectedly raises doubts about the plan. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Ask for detailed evidence immediately and spend the rest of the meeting on it."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Tell the team member the plan is settled and to focus on their assigned tasks."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Acknowledge the concern, finish the planned agenda, and follow up with them individually afterward."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Schedule a full team workshop to re-open the entire project approach before any further work continues."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nAcknowledge the concern, finish the planned agenda, and follow up with them individually afterward.\nAcknowledging the concern without derailing the agenda respects both the team member's input and the rest of the team's time, with a real follow-up planned.\n\nOther options are incorrect\nAsking for detailed evidence immediately and spending the rest of the meeting on it is an unfair burden and disrupts time-sensitive items.\nTelling the team member the plan is settled discourages people from raising issues in the future.\nScheduling a full team workshop to re-open the entire project approach is a disproportionate response to one unvalidated concern.\n"
+                    },
+                    {
+                      "id": "q_0035",
+                      "type": "single",
+                      "text": "A project manager identifies three high-probability schedule and budget risks, and mitigating them requires three specific specialists who are already committed to a different project under another project manager. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Escalate straight to the sponsor and ask for executive intervention to reassign the specialists."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Negotiate directly with the three specialists about taking on extra work alongside their current commitments."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Talk to the other project manager first to explore reallocating or sharing the specialists."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "File a formal resource change request through the PMO to reassign the specialists."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nTalk to the other project manager first to explore reallocating or sharing the specialists.\nGoing to the other project manager first respects the existing commitment and opens the door to a mutually workable solution.\n\nOther options are incorrect\nEscalating straight to the sponsor skips the peer-level conversation that should happen first.\nNegotiating directly with individual specialists bypasses their current project manager and can create conflict.\nFiling a formal resource change request before any peer discussion is premature and risks damaging the working relationship.\n"
+                    },
+                    {
+                      "id": "q_0036",
+                      "type": "multi",
+                      "text": "Right after a feature release, it comes out that a team member used an unapproved workaround to unblock stalled work. The quality director wants an explanation and corrective action. What should the project manager do? (Choose 2)\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Tell the team member not to make any autonomous technical decisions again without the quality director's written approval."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Ask the team member to explain their reasoning and share the lessons learned with the rest of the team."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Apologize to the quality director and commit to a full disciplinary review."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Work with the team to assess how serious the issue is and decide whether to roll back the release or apply a targeted fix."
+                        },
+                        {
+                          "id": "o_5",
+                          "text": "Ask the team to hold off on the fix until the next iteration and finish the current sprint's backlog first."
+                        }
+                      ],
+                      "answers": [
+                        "o_2",
+                        "o_4"
+                      ],
+                      "explanation": "\nAsk the team member to explain their reasoning and share the lessons learned with the rest of the team. Work with the team to assess how serious the issue is and decide whether to roll back the release or apply a targeted fix.\nUnderstanding the reasoning behind the workaround while assessing the actual severity and fixing it appropriately addresses both transparency and impact.\n\nOther options are incorrect\nTelling the team member not to make any autonomous technical decisions again over-corrects and discourages initiative.\nApologizing to the quality director and committing to a full disciplinary review before understanding context focuses on blame over improvement.\nAsking the team to hold off on the fix until the next iteration leaves a known production issue unresolved.\n"
+                    },
+                    {
+                      "id": "q_0037",
+                      "type": "single",
+                      "text": "Near the end of an iteration, a customer asks the team to change the technical approach for a feature still in development. The team isn't sure it's feasible within current constraints. What should the project manager do next?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Agree to the new approach right away and have the team update the design before the iteration ends."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Decline the request and tell the customer technical decisions belong solely to the development team."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Ask the customer to file a formal change request and defer discussion to the next release-planning session."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Clarify why the customer wants the change and arrange a short, focused effort to assess whether it's feasible."
+                        }
+                      ],
+                      "answers": [
+                        "o_4"
+                      ],
+                      "explanation": "\nClarify why the customer wants the change and arrange a short, focused effort to assess whether it's feasible.\nUnderstanding the customer's actual reason and running a quick feasibility check before committing avoids over-promising while still taking the request seriously.\n\nOther options are incorrect\nAgreeing to the new approach right away risks schedule and technical problems from an unassessed change.\nDeclining the request outright shuts down a request that may add real value.\nAsking the customer to file a formal change request and deferring discussion risks frustrating the customer and losing a timely opportunity to evaluate it.\n"
+                    },
+                    {
+                      "id": "q_0038",
+                      "type": "single",
+                      "text": "A departing contractor sends an urgent email demanding immediate payment of their final invoice, before the project manager has finished the standard payment verification. How should the project manager respond?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Approve the payment right away to preserve the relationship and avoid disputes."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Ignore the urgent request and pay only once all remaining deliverables are formally accepted."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Follow the payment terms already defined in the procurement plan and the signed contract."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Escalate the payment request to the sponsor for a decision."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nFollow the payment terms already defined in the procurement plan and the signed contract.\nFollowing the agreed procurement terms keeps the payment process fair, consistent, and compliant with what was actually signed.\n\nOther options are incorrect\nApproving the payment right away, outside the process, sets a precedent for bypassing controls and risks paying for unverified work.\nIgnoring the request entirely may itself violate agreed payment terms.\nEscalating the payment request to the sponsor isn't necessary, since the project manager already has the authority and the contract to act on.\n"
+                    },
+                    {
+                      "id": "q_0039",
+                      "type": "single",
+                      "text": "While the product owner was away, the team changed a key design element on its own initiative; testing results actually improved as a result. The product owner is now back, unhappy, and wants it reverted, but the schedule is tight and rework would delay release. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Direct the team to revert to the original design immediately, even if it pushes other work later."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Overrule the product owner and keep the new design because testing improved."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Work with the product owner to decide, through normal prioritization, whether and when any rework should happen."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Have the team quietly keep the new design but present it as matching the original."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nWork with the product owner to decide, through normal prioritization, whether and when any rework should happen.\nBringing the decision back through the normal prioritization process respects the product owner's authority while weighing the improved results and the schedule together.\n\nOther options are incorrect\nDirecting the team to revert to the original design immediately risks the schedule without a balanced look at the tradeoffs.\nOverruling the product owner undermines their decision-making role.\nHaving the team quietly keep the new design while presenting it as matching the original damages trust and risks a bigger problem later.\n"
+                    },
+                    {
+                      "id": "q_0040",
+                      "type": "single",
+                      "text": "Key stakeholders are worried the current release plan for a hybrid project won't meet an urgent business need in time. How should the project manager respond?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Escalate the concern to the sponsor and request a formal review of the timeline."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Immediately compress the schedule and reassure stakeholders the urgent need will be met."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Work with the product owner to define a minimum viable release and reprioritize accordingly."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Run a full stakeholder workshop to redefine scope and get agreement on a new deliverable set."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nWork with the product owner to define a minimum viable release and reprioritize accordingly.\nDefining an MVP with the product owner focuses delivery on what actually addresses the urgent need, enabling an earlier, targeted release.\n\nOther options are incorrect\nEscalating the concern to the sponsor before engaging the product owner bypasses the normal prioritization chain.\nImmediately compressing the schedule without reprioritizing first risks compressing the wrong work.\nRunning a full stakeholder workshop to redefine scope is a bigger intervention than the situation calls for.\n"
+                    },
+                    {
+                      "id": "q_0041",
+                      "type": "single",
+                      "text": "A telecom provider's self-service portal launch slipped because the team lacked experience with a specific security integration. The sponsor now wants to know how to prevent similar late-discovered gaps in the future. What should the project manager do?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Ask the team to work unpaid overtime to close the current gap and hit the original date."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Work with the sponsor to build in targeted training as soon as critical skill gaps are identified on current and future projects."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Route all specialized work on future projects only to external vendors with the needed skills already in-house."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Ask HR to update generic job descriptions without changing how skills are assessed at the project level."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "\nWork with the sponsor to build in targeted training as soon as critical skill gaps are identified on current and future projects.\nPartnering with the sponsor to catch and train for skill gaps early, going forward, builds a real prevention mechanism rather than a one-time fix.\n\nOther options are incorrect\nAsking the team to work unpaid overtime treats a structural gap as an effort problem and is unsustainable.\nRouting all specialized work only to external vendors avoids building internal capability and may not fit budget or strategy.\nAsking HR to update generic job descriptions alone doesn't change how gaps are caught or addressed at the project level.\n"
+                    },
+                    {
+                      "id": "q_0042",
+                      "type": "single",
+                      "text": "A commercial building project originally scheduled for 20 months is now being asked to finish in 16, with no additional budget. The facilities director insists the new date is firm; the design lead is worried about quality. What should the project manager do first?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Analyze how the compressed timeline would affect schedule, scope, cost, and quality before responding to stakeholders."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Reject the new timeline and restate the original 20-month commitment."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Push the team into overtime to compress all remaining activities toward the 16-month date."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Update the schedule to show 16 months and ask the sponsor to sign off on the more aggressive plan."
+                        }
+                      ],
+                      "answers": [
+                        "o_1"
+                      ],
+                      "explanation": "\nAnalyze how the compressed timeline would affect schedule, scope, cost, and quality before responding to stakeholders.\nUnderstanding the real impact across scope, schedule, cost, and quality has to come before negotiating any tradeoff or committing to a new baseline.\n\nOther options are incorrect\nRejecting the new timeline outright doesn't explore whether value can be preserved through feasible adjustment.\nPushing the team into overtime risks burnout and quality issues without any analysis behind it.\nUpdating the schedule to show 16 months before assessing feasibility risks an unrealistic promise.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ch_003_t_002",
+              "name": "Quality, Testing, and Resistance to Change",
+              "subtopics": [
+                {
+                  "id": "ch_003_t_002_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0043",
+                      "type": "multi",
+                      "text": "A bank's core-platform test-automation initiative asks senior manual testers to help identify which regression tests can be automated. The test manager resists, worried automation threatens their team's jobs, but the sponsor wants to move forward regardless. What two actions should the project manager take? (Choose 2)\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Direct the test manager to assign senior testers to the initiative regardless of their concerns."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Draft the full automation plan and select tools without involving the test manager, to avoid conflict."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Ask the sponsor to explain the strategic reasoning behind automation in terms that can be shared with the testing organization."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Work with the sponsor to frame the initiative's charter around enhancing testing effectiveness rather than replacing people."
+                        }
+                      ],
+                      "answers": [
+                        "o_3",
+                        "o_4"
+                      ],
+                      "explanation": "\nAsk the sponsor to explain the strategic reasoning behind automation in terms that can be shared with the testing organization. Work with the sponsor to frame the initiative's charter around enhancing testing effectiveness rather than replacing people.\nGetting the sponsor's rationale communicated clearly, and reframing the charter around enhancing rather than eliminating roles, addresses the actual source of resistance.\n\nOther options are incorrect\nDirecting the test manager to assign senior testers regardless of their concerns may move things forward briefly but damages collaboration.\nDrafting the full automation plan without involving the test manager risks a plan that doesn't reflect operational reality and further alienates a key stakeholder.\n"
+                    },
+                    {
+                      "id": "q_0044",
+                      "type": "single",
+                      "text": "A medical-device manufacturer sees over half its tests fail across several modules for two cycles running. The test lead wants to pause and diagnose; the development lead wants more testers to repeat failed cases. The sponsor wants a quick update. What should the project manager do first?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Pause further testing and tighten acceptance criteria in the quality management plan."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Request additional resources to rework the failed test cases quickly."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Build a cause-and-effect diagram to analyze what's driving the high failure rate."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Escalate to the sponsor and propose a contingency budget for potential rework."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nBuild a cause-and-effect diagram to analyze what's driving the high failure rate.\nSystematically analyzing possible causes before acting targets the root of the problem rather than reacting to its symptoms.\n\nOther options are incorrect\nPausing further testing and tightening acceptance criteria doesn't address why tests are failing.\nRequesting additional resources to rework the failed test cases treats the symptom, not the cause.\nEscalating to the sponsor before any analysis is premature; root cause should be pursued first.\n"
+                    },
+                    {
+                      "id": "q_0045",
+                      "type": "single",
+                      "text": "A consulting firm's mixed local-and-remote team is missing deadlines due to disputes over whose work is more urgent. The project manager brings everyone into a video call aimed at finding a solution the whole group can support. Which conflict-resolution approach is this?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Collaborate / problem-solve"
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Compete / force"
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Compromise / reconcile"
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Withdraw / avoid"
+                        }
+                      ],
+                      "answers": [
+                        "o_1"
+                      ],
+                      "explanation": "\nCollaborate / problem-solve.\nBringing all parties together with the explicit goal of finding a solution everyone can support is the collaborate or problem-solve style.\n\nOther options are incorrect\nCompete or force would mean imposing a decision rather than seeking joint agreement.\nCompromise or reconcile involves each side giving something up, which isn't described here.\nWithdraw or avoid would mean sidestepping the conflict rather than addressing it directly.\n"
+                    },
+                    {
+                      "id": "q_0046",
+                      "type": "multi",
+                      "text": "A hardware prototyping team hits a significant delay because it lacks experience with a specialized testing tool, driving up both time and cost. The project manager wants to prevent this from recurring on future projects. What should the project manager do? (Choose 3)\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Identify the critical skills future similar projects will need and staff teams to leverage people's existing strengths in those areas."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Require all future team members to complete generic project management training before starting technical work."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Reduce the size of future cross-functional teams to simplify communication and decision-making."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Work with HR to source team members who already have the required specialized skills for future projects."
+                        },
+                        {
+                          "id": "o_5",
+                          "text": "Log the skill gap as a project risk for future planning and define mitigation strategies."
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_4",
+                        "o_5"
+                      ],
+                      "explanation": "\nIdentify the critical skills future similar projects will need and staff teams to leverage people's existing strengths in those areas. Work with HR to source team members who already have the required specialized skills for future projects. Log the skill gap as a project risk for future planning and define mitigation strategies.\nIdentifying needed skills, sourcing people who already have them, and formally logging the gap as a risk together build real prevention into future planning.\n\nOther options are incorrect\nRequiring all future team members to complete generic project management training doesn't address the specific technical gap that caused the delay.\nReducing the size of future cross-functional teams doesn't solve a missing-skill problem and may constrain capacity further.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ch_003_t_003",
+              "name": "Change, Scope, and Role Boundaries",
+              "subtopics": [
+                {
+                  "id": "ch_003_t_003_st_001",
+                  "name": "NA",
+                  "questions": [
+                    {
+                      "id": "q_0047",
+                      "type": "single",
+                      "text": "A stakeholder with a minor role wants to add an untested feature during execution. The cost of adding it is small, but if it succeeds, the upside could be significant. What should the project manager do first?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Approve the addition right away, given the low cost and high potential upside."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Decline the request since the stakeholder's role is minor and they lack authority to request scope changes."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Submit a change request on the stakeholder's behalf to run it through formal evaluation."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Assess the risk of the untested functionality before taking any further action."
+                        }
+                      ],
+                      "answers": [
+                        "o_4"
+                      ],
+                      "explanation": "\nAssess the risk of the untested functionality before taking any further action.\nSince the functionality is untested, understanding its probability of failure and its potential effect on product, schedule, and budget has to come before any decision.\n\nOther options are incorrect\nApproving the addition based on cost and upside alone skips that risk assessment.\nDeclining based on the requester's seniority is inappropriate, since requests are evaluated on merit, not the requester's standing.\nFiling a formal change request should follow the risk assessment, not precede it.\n"
+                    },
+                    {
+                      "id": "q_0048",
+                      "type": "single",
+                      "text": "A newly formed agile team has been working twelve-hour days to meet sprint commitments. The product owner accepted early estimates without pushing back on aggressive deadlines, and now the team is exhausted with declining velocity. Who fell short of their responsibilities here?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "The product owner, for accepting commitments without checking they reflected sustainable capacity."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "The scrum master, for not protecting the team's sustainable pace and facilitating realistic commitments."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "The team members, for agreeing to work overtime instead of pushing back."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "The project manager, for not reporting the overtime to the steering committee sooner."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "\nThe scrum master, for not protecting the team's sustainable pace and facilitating realistic commitments.\nSafeguarding sustainable pace and facilitating realistic sprint commitments, including managing stakeholder expectations, is squarely the scrum master's responsibility.\n\nOther options are incorrect\nThe product owner shares some accountability, but protecting pace is primarily the scrum master's role.\nThe team members usually rely on the scrum master to negotiate workload on their behalf.\nThe project manager simply reporting overtime upward wouldn't have addressed the root cause even if done sooner.\n"
+                    },
+                    {
+                      "id": "q_0049",
+                      "type": "single",
+                      "text": "During an iteration review, stakeholders say a newly demonstrated feature doesn't meet expectations, and tension is rising as the team looks for direction. What should the project manager do first?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Have the team immediately revise the implementation to match stakeholder feedback."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Tell stakeholders changes must wait for the next release and move to the next agenda item."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Defend the team's work by explaining it followed the original requirements."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Ask stakeholders to explain their specific concerns and clarify exactly what's falling short."
+                        }
+                      ],
+                      "answers": [
+                        "o_4"
+                      ],
+                      "explanation": "\nAsk stakeholders to explain their specific concerns and clarify exactly what's falling short.\nUnderstanding the specific concern first is necessary before committing to any next step, and it keeps stakeholders engaged.\n\nOther options are incorrect\nHaving the team immediately revise the implementation risks wasted effort if the real issue isn't yet clear.\nTelling stakeholders changes must wait for the next release damages engagement and lets dissatisfaction grow.\nDefending the team's work without first listening reduces trust and doesn't uncover the actual gap.\n"
+                    },
+                    {
+                      "id": "q_0050",
+                      "type": "multi",
+                      "text": "During planning in a matrix organization, a project manager identifies the staffing the project needs, but functional managers report the needed people aren't available due to a separate organizational change effort. What two steps should the project manager take next? (Choose 2)\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Investigate other sources for the needed people or resources."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Escalate the shortage to the sponsor and ask to delay the project start until resources free up."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Reassess objectives, review planned activities, and recalculate resource needs based on actual availability."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Halt planning activities entirely until the change initiative concludes."
+                        },
+                        {
+                          "id": "o_5",
+                          "text": "File a formal resource conflict report with the PMO and request arbitration."
+                        }
+                      ],
+                      "answers": [
+                        "o_1",
+                        "o_3"
+                      ],
+                      "explanation": "\nInvestigate other sources for the needed people or resources. Reassess objectives, review planned activities, and recalculate resource needs based on actual availability.\nLooking for alternative resourcing while also re-evaluating what the project actually needs given current availability keeps the plan grounded in reality.\n\nOther options are incorrect\nEscalating the shortage to the sponsor and asking for a delay before exploring alternatives is premature.\nHalting planning activities entirely is unnecessarily passive and risks larger delays.\nFiling a formal resource conflict report with the PMO is a step that should follow the project manager's own analysis, not replace it.\n"
+                    },
+                    {
+                      "id": "q_0051",
+                      "type": "single",
+                      "text": "Team members report that a new hire's work is introducing errors into key deliverables. The project manager suspects a skills mismatch or unclear expectations, and the team is frustrated by the rework. What should the project manager do next?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Meet with the new hire to discuss their assigned tasks, reassess their skills, and understand what they're finding difficult."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Reassign the new hire to a different project immediately, without further discussion."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Ask senior team members to quietly fix the errors until the project wraps up."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Send a team-wide email reminding everyone about quality standards."
+                        }
+                      ],
+                      "answers": [
+                        "o_1"
+                      ],
+                      "explanation": "\nMeet with the new hire to discuss their assigned tasks, reassess their skills, and understand what they're finding difficult.\nA direct conversation to understand the new hire's actual challenges and skill level is needed before deciding whether to retrain, clarify expectations, or reassign work.\n\nOther options are incorrect\nReassigning the new hire to a different project immediately skips that understanding entirely.\nAsking senior team members to quietly fix the errors hides the problem and adds hidden rework.\nSending a team-wide email doesn't address the specific person's actual gap.\n"
+                    },
+                    {
+                      "id": "q_0052",
+                      "type": "single",
+                      "text": "An outsourced development team building a travel-booking app keeps misreading idioms and cultural references in the stories they're given, leading to UI mismatches. The project manager wants to improve their contextual understanding of end users. What should the project manager do next?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Replace the current vendor with one based in the target market, even though the current vendor meets all technical requirements."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Work with the product owner to rewrite usability-related stories using clearer, culture-neutral acceptance criteria before assigning them."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Have the contractors focus only on backend logic and leave all usability work for the in-house team at the end."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Ask the product owner to relax usability expectations to avoid further rework."
+                        }
+                      ],
+                      "answers": [
+                        "o_2"
+                      ],
+                      "explanation": "\nWork with the product owner to rewrite usability-related stories using clearer, culture-neutral acceptance criteria before assigning them.\nRewriting the stories themselves with clearer, culture-neutral criteria fixes the actual source of the misunderstanding.\n\nOther options are incorrect\nReplacing the current vendor discards a team performing well on the technical side and adds delay for a scope-definition problem.\nHaving the contractors focus only on backend logic creates integration risk and blocks incremental delivery.\nAsking the product owner to relax usability expectations ignores the underlying clarity problem and risks an unsatisfying product.\n"
+                    },
+                    {
+                      "id": "q_0053",
+                      "type": "single",
+                      "text": "A project manager built a plan around an agreed 16-month life cycle. A sponsor now asks, due to shifting business needs, for completion in 9 months. How should the project manager respond?\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Accept the request and immediately fast-track all critical path activities."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Decline and tell the sponsor the approved 16-month schedule can't change without formal change control board approval."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Run an impact evaluation with the project team before responding to the sponsor."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Escalate to the PMO and request a feasibility review before committing to anything."
+                        }
+                      ],
+                      "answers": [
+                        "o_3"
+                      ],
+                      "explanation": "\nRun an impact evaluation with the project team before responding to the sponsor.\nEvaluating the impact with the team first ensures the cost, scope, quality, and risk implications of a seven-month compression are understood before any commitment is made.\n\nOther options are incorrect\nAccepting the request and immediately fast-tracking all critical path activities risks unplanned costs and quality issues.\nDeclining outright treats a legitimate change request as something to block rather than assess.\nEscalating to the PMO before a team-level assessment is premature; that assessment is the project manager's own job to lead.\n"
+                    },
+                    {
+                      "id": "q_0054",
+                      "type": "multi",
+                      "text": "On an agile team working from a prioritized backlog, an R&D executive occasionally redirects work to more urgent items that were never in the backlog, frustrating the product owner. The team needs a way to handle this without disrupting priority management. What should the team do? (Choose 2)\n",
+                      "options": [
+                        {
+                          "id": "o_1",
+                          "text": "Keep following the executive's instructions, but hold longer iteration reviews to justify the changes to the product owner afterward."
+                        },
+                        {
+                          "id": "o_2",
+                          "text": "Stop accepting work prioritized directly by the executive instead of by the product owner."
+                        },
+                        {
+                          "id": "o_3",
+                          "text": "Ask the executive to route any requests through the product owner for consideration in the backlog."
+                        },
+                        {
+                          "id": "o_4",
+                          "text": "Ask the product owner to step back from prioritization and let the executive set the backlog directly."
+                        },
+                        {
+                          "id": "o_5",
+                          "text": "Give the executive direct access to add items to the backlog."
+                        }
+                      ],
+                      "answers": [
+                        "o_2",
+                        "o_3"
+                      ],
+                      "explanation": "\nStop accepting work prioritized directly by the executive instead of by the product owner. Ask the executive to route any requests through the product owner for consideration in the backlog.\nDeclining to act on the executive's direct instructions, and redirecting those requests through the product owner, restores the normal engagement channel without cutting the executive out.\n\nOther options are incorrect\nContinuing to comply while explaining afterward keeps the problematic pattern in place.\nHaving the product owner step back from prioritization undermines product ownership rather than fixing the bypass.\nGiving the executive direct backlog access formalizes the bypass instead of resolving it.\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

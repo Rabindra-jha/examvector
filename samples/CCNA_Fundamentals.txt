@@ -1,0 +1,305 @@
+CCNA Fundamentals
+Author: Rabindra Jha
+Chapter_001_Virtualization Fundamentals
+001_001_Topic_Data Center Architecture and Server Application Deployment
+
+Q1. Which of the following best describes the primary role of a data center in an organization?
+A. It provides wireless connectivity for end users.
+B. It hosts applications and data critical to business operations.
+C. It functions only as a backup facility for storage.
+D. It handles only external web traffic.
+Answer: B
+Explanation: Data centers are designed to host mission-critical applications and data that enable productivity and essential business functions.
+
+Q2. Why is it important for a data center to maintain high availability and uptime?
+A. To reduce software licensing costs
+B. Because user productivity depends on constant access to applications and data
+C. To support faster Wi-Fi access for guests
+D. Because it ensures redundancy of network switches
+Answer: B
+Explanation: If a data center goes offline, users lose access to essential systems, significantly impacting productivity and business continuity.
+
+Q3. What are the two main operating systems commonly used in enterprise data centers? (Select 2)
+A. Windows
+B. Linux
+C. macOS
+D. ChromeOS
+Answer: A, B
+Explanation: Data centers primarily run on Windows and Linux operating systems, as these support most enterprise-grade applications and workloads.
+
+Q4. Which two problems can arise from running multiple applications on a single server operating system? (Select 2)
+A. Applications may compete for CPU and memory resources.
+B. TCP/UDP port conflicts can occur between applications.
+C. Applications automatically balance loads between each other.
+D. Software updates become easier to manage.
+Answer: A, B
+Explanation: Multiple applications can compete for limited hardware resources, and network port conflicts can occur if they use the same TCP or UDP ports.
+
+Q5. What best describes the recommended deployment model for applications in a data center?
+A. Many applications per operating system
+B. One application per shared network switch
+C. One application per operating system per physical server
+D. One operating system per network segment
+Answer: C
+Explanation: To avoid conflicts and ensure stability, data centers typically follow a one-to-one relationship between the application, operating system, and physical server.
+
+Q6. Why do software vendors often require each enterprise application to run on its own server?
+A. To increase the need for software licenses
+B. To prevent resource and support conflicts between applications
+C. To simplify cloud migration
+D. To reduce energy consumption
+Answer: B
+Explanation: Running applications separately ensures predictable performance, eliminates port or resource contention, and simplifies troubleshooting and vendor support.
+
+001_002_Topic_Virtualization and Bare Metal Servers
+
+Q1. What does the term “bare metal server” refer to in data center environments?
+A. A server running multiple virtual machines
+B. A server running a single OS directly on hardware
+C. A virtualized machine running in the cloud
+D. A server without storage capacity
+Answer: B
+Explanation: A bare metal server refers to a physical machine with a one-to-one relationship between hardware and a single installed operating system, without any virtualization layer.
+
+Q2. Which of the following were challenges with the traditional one-to-one server deployment model? (Select 3)
+A. Resource underutilization
+B. Simplified scalability
+C. High management overhead
+D. Increased hardware costs
+Answer: A, C, D
+Explanation: Bare metal architectures suffered from underutilized hardware, higher operational and management complexity, and increased costs due to needing more physical servers for multiple applications.
+
+Q3. What is the primary role of a hypervisor in a virtualized environment?
+A. It manages storage and disk redundancy
+B. It acts as the OS for applications
+C. It allows multiple OS instances to run on one hardware platform
+D. It replaces the need for physical servers entirely
+Answer: C
+Explanation: A hypervisor sits on top of the physical hardware and enables multiple virtualized operating systems to coexist independently on the same physical server.
+
+Q4. Which of the following statements about resource management in a bare metal environment are true? (Select 2)
+A. Some servers often have unused capacity
+B. Hardware resources are evenly distributed automatically
+C. Resource spikes in one server cannot leverage unused capacity of another
+D. All servers share resources through a common hypervisor
+Answer: A, C
+Explanation: Each server in a bare metal setup is sized for its own application's estimated load. Since real usage rarely matches that estimate exactly, some servers end up with unused capacity while others run hot. Without a hypervisor pooling resources across machines, there's no way to shift spare capacity from an idle server to an overloaded one, resources aren't distributed automatically and there's no shared resource pool across servers.
+
+Q5. What is the term used for the physical machine that hosts virtual machines?
+A. Guest
+B. VM
+C. Host
+D. Node
+Answer: C
+Explanation: The physical machine in a virtualized environment is called a host; it provides CPU, memory, and storage resources to the virtual machines (guests).
+
+Q6. What is the relationship between hosts and guests in virtualization?
+A. Guests manage hardware, hosts run applications
+B. Hosts provide hardware resources, guests use them
+C. Both hosts and guests share the same OS instance
+D. Hosts operate as VMs inside other guests
+Answer: B
+Explanation: In virtualization, the host provides hardware resources such as CPU, RAM, and storage, which are consumed by guest virtual machines running their own OS.
+
+Q7. How does virtualization solve the inefficiency problem of bare metal servers?
+A. By requiring fewer applications per OS
+B. By allocating separate hardware for each process
+C. By allowing multiple OS instances on one server
+D. By eliminating the need for an OS entirely
+Answer: C
+Explanation: Virtualization allows several independent OS instances (VMs) to run on a single physical host through a hypervisor, leading to better hardware utilization and scalability.
+
+
+Chapter_002_Understand L2 Switch Forwarding
+
+002_001_Topic_Layer 2 Switching — Big Picture Overview
+
+Q1. Which event causes a switch to add an entry to its MAC (CAM) table?
+A. Receiving a frame and inspecting its source MAC address.
+B. Receiving a frame and inspecting its destination MAC address.
+C. Periodic ARP broadcasts only.
+D. Manually configuring an IP address on an attached host.
+Answer: A
+Explanation: Switches learn by examining the source MAC of incoming frames and recording which port that source MAC is reachable from; destination MACs are used for forwarding, not learning.
+
+Q2. What is the default MAC address table aging time on most switches?
+A. 60 seconds
+B. 120 seconds
+C. 300 seconds
+D. 600 seconds
+Answer: C
+Explanation: The default aging timer is 300 seconds (5 minutes); entries expire if no frames are seen from that MAC within the timer.
+
+Q3. Which of the following are forwarded out all other ports of a switch in a single VLAN? (Select 2)
+A. Layer 2 broadcasts such as ARP requests.
+B. Known unicast frames when the destination MAC is in the MAC table.
+C. Unknown-destination unicast frames (flooding).
+D. Frames destined to a correctly learned MAC on the same switch.
+Answer: A, C
+Explanation: Broadcasts are intentionally forwarded to all other ports in the LAN; unknown-destination unicast frames are flooded because the switch doesn't yet know which port the destination is on. Known unicast frames go only to the learned port, since the switch has already recorded that MAC's location.
+
+Q4. Which protocols/applications commonly generate layer 2 broadcasts on an IPv4 LAN? (Select 2)
+A. ARP requests
+B. DHCP discovery
+C. IGMP membership reports
+D. TCP three-way handshake
+Answer: A, B
+Explanation: ARP and DHCP use layer 2 broadcasts on IPv4 LANs. IGMP uses multicast (not broadcast), and TCP operates at higher layers and does not itself generate layer 2 broadcasts.
+
+Q5. Which term is another name for the MAC address table used by switches?
+A. NAT table
+B. CAM table
+C. ARP table
+D. Routing table
+Answer: B
+Explanation: The MAC address table is often called the CAM (Content-Addressable Memory) table on switches; ARP is for IPv4-to-MAC mapping on hosts/routers, and routing tables are layer 3.
+
+Q6. If a switch receives a unicast frame whose destination MAC is present in its CAM table, what does it do?
+A. Flood the frame out all ports.
+B. Drop the frame.
+C. Forward the frame only out the learned port for that MAC.
+D. Change the destination MAC and forward.
+Answer: C
+Explanation: When the destination MAC is known, the switch forwards the frame only out the port associated with that MAC; it does not flood, drop, or alter MACs.
+
+Q7. Which statements about flooding are true? (Select 2)
+A. Flooding happens only for multicast traffic.
+B. Flooding occurs for unknown-destination unicast frames.
+C. Flooded frames are sent out all ports except the incoming port.
+D. Flooding updates the switch’s MAC table with the destination MAC.
+Answer: B, C
+Explanation: Flooding applies only to unknown-destination unicast frames, sent out every port except the one it arrived on. The MAC table isn't updated from this, it only learns an address when that device itself sends a frame.
+
+Q8. Do layer 2 switches modify the source or destination MAC address inside forwarded frames?
+A. Yes — they rewrite MACs for every hop.
+B. Yes — they change source MAC but not destination MAC.
+C. No — they forward frames transparently without changing MAC addresses.
+D. Only when STP is enabled.
+Answer: C
+Explanation: Switches are transparent at layer 2 and do not change the source or destination MAC addresses; they simply forward based on the MAC header and their MAC table.
+
+Q9. Which of the following best describes what a layer 2 switch cares about when making forwarding decisions?
+A. Destination IP addresses and subnet masks.
+B. Layer 4 port numbers (TCP/UDP).
+C. Destination MAC addresses in the Ethernet header.
+D. Application payload content.
+Answer: C
+Explanation: Layer 2 switches forward frames based on the destination MAC address in the Ethernet header; higher-layer information is treated as payload and not used for switching decisions.
+
+Q10. Which actions will allow a switch to learn where a host’s MAC address is located? (Select 2)
+A. The host sending a frame into the switch (source MAC observed).
+B. The switch running a routing protocol and learning host IPs.
+C. Manually configuring a static MAC-to-port entry on the switch.
+D. The host changing its IP address only (without sending frames).
+Answer: A, C
+Explanation: Switches learn dynamically when a host sends a frame (source MAC is recorded), and administrators can also configure static MAC-to-port entries. Routing protocols and mere IP changes without traffic do not populate the switch’s MAC table.
+
+002_002_Topic_Predicting MAC Address Tables
+
+Q1. When a switch learns a MAC address, which field in a received frame does it use for learning?
+A. Destination MAC address
+B. Source MAC address
+C. VLAN ID field
+D. EtherType field
+Answer: B
+Explanation: Switches learn MAC addresses from the source MAC of frames that enter the switch, associating that address with the ingress port in the MAC table.
+
+Q2. What information does a MAC address table contain for each entry? (Select 2)
+A. Source IP address
+B. MAC address
+C. Switch port number
+D. VLAN name
+Answer: B, C
+Explanation: Each entry in a MAC address table maps a MAC address to the specific switch port where that device was last seen.
+
+Q3. What happens to MAC address entries if a device remains inactive for 300 seconds?
+A. They are permanently stored.
+B. They are removed (aged out) of the MAC table.
+C. They are backed up to the startup configuration.
+D. They are sent to all neighboring switches.
+Answer: B
+Explanation: Switches age out MAC entries after 300 seconds of inactivity, freeing up space and maintaining current network topology.
+
+Q4. Which command is used on a Cisco switch to display all learned MAC addresses?
+A. show ip route
+B. show arp
+C. show mac address-table
+D. show vlan
+Answer: C
+Explanation: The command show mac address-table displays all dynamically and statically learned MAC addresses with their respective associated switch ports.
+
+Q5. In a single VLAN, how does a switch decide where to forward a unicast frame?
+A. It consults the MAC table for the destination MAC.
+B. It forwards to all ports by default.
+C. It uses IP routing to determine the next hop.
+D. It rewrites the source MAC and sends to all VLANs.
+Answer: A
+Explanation: The switch checks its MAC address table to find the output port associated with the destination MAC, ensuring efficient Layer 2 forwarding within the same VLAN.
+
+002_003_Topic_MAC Address Table Aging and Refresh on Switches
+Q1. What is the default MAC address table aging time on a Cisco switch?
+A. 100 seconds
+B. 300 seconds
+C. 600 seconds
+D. 900 seconds
+Answer: B
+Explanation: The default aging time is 300 seconds (5 minutes), after which inactive MAC addresses are removed from the table.
+
+Q2. What happens when the MAC aging timer expires for an entry? (Select 2)
+A. The entry is deleted from the MAC table.
+B. The switch disables the associated port.
+C. The entry is relearned once new frames are received.
+D. The MAC address is permanently blacklisted.
+Answer: A, C
+Explanation: When the timer expires, the MAC entry is removed. The switch will relearn the MAC automatically the next time it sees a frame with that source address.
+
+Q3. Which command is used to modify the MAC address aging time on a Cisco switch?
+A. mac-address aging-time [value]
+B. mac address-table aging-time [value]
+C. switchport aging-time [value]
+D. arp timeout [value]
+Answer: B
+Explanation: The command mac address-table aging-time [value] allows administrators to change the MAC aging interval from its default of 300 seconds.
+
+Q4. If a host remains active by sending frames regularly, how does this affect its MAC table entry?
+A. The entry ages out regardless of activity.
+B. The aging timer resets each time a frame is received, keeping the entry active.
+C. The switch moves the entry to a backup table.
+D. The entry becomes static automatically.
+Answer: B
+Explanation: Each new frame from the host refreshes the timer for its MAC entry, ensuring it is active in the CAM table.
+
+Chapter_003_Cisco 802.1Q Trunking
+003_001_Topic_ Cisco 802.1Q Trunking
+
+Q1. What problem does 802.1Q trunking solve between two switches?
+A. It increases port speed
+B. It allows multiple VLANs to be carried over one link
+C. It encrypts Layer 2 frames
+D. It prevents ARP broadcasts
+Answer: B
+Explanation: Trunking allows frames from multiple VLANs to traverse a single inter-switch link.
+
+Q2. Which header is added to frames sent across an 802.1Q trunk?
+A. MPLS label
+B. PPP header
+C. 802.1Q VLAN tag
+D. STP BPDU
+Answer: C
+Explanation: 802.1Q inserts a VLAN tag identifying the VLAN to which the frame belongs.
+
+Q3. What is the purpose of the native VLAN on an 802.1Q trunk link?
+A. It carries only broadcast traffic across the trunk.
+B. It is the VLAN whose frames are sent untagged across the trunk.
+C. It disables VLAN tagging for all VLANs on that trunk.
+D. It is used exclusively for switch management traffic.
+Answer: B
+Explanation: On an 802.1Q trunk, frames belonging to the native VLAN are sent without a VLAN tag, while all other VLANs' frames carry an 802.1Q tag identifying their VLAN.
+
+Q4. What problem occurs if the native VLAN configured on one end of a trunk does not match the native VLAN on the other end?
+A. The trunk link automatically shuts down.
+B. Untagged frames can be mis-associated with the wrong VLAN, causing a native VLAN mismatch.
+C. All VLANs on the trunk become tagged automatically to compensate.
+D. The switches renegotiate and pick the lower VLAN number as native.
+Answer: B
+Explanation: Since native VLAN frames are untagged, a mismatch means each switch assumes untagged traffic belongs to a different VLAN than the other side intends, which can leak traffic between VLANs and trigger a native VLAN mismatch warning (e.g., via CDP).
