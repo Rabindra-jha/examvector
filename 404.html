@@ -5,8 +5,11 @@
     <title>ExamVector</title>
     <script>
       const path = window.location.pathname.replace('/examvector', '');
-      sessionStorage.setItem('redirect', path);
-      window.location.replace('/examvector/');
+            if (!path.includes('.')) {
+        sessionStorage.setItem('redirect', path);
+        window.location.replace('/examvector/');
+      }
+
     </script>
   </head>
   <body></body>
