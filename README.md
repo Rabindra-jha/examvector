@@ -83,19 +83,14 @@ Full format reference is in the [Manual](https://rabindra-jha.github.io/examvect
 ### Use it online
 Go to **[https://rabindra-jha.github.io/examvector/](https://rabindra-jha.github.io/examvector/)**
 
-### Run locally
+### Run it locally
+Download the latest build from the [releases page](https://github.com/rabindra-jha/examvector/releases), extract the zip, then run:
+
 ```bash
-git clone https://github.com/rabindra-jha/examvector.git
-cd examvector
-npm install
-npm run dev
+npx serve dist
 ```
 
-### Build and deploy
-```bash
-npm run build
-```
-Output goes to `dist/` — deploy to any static host.
+Open your browser at `http://localhost:3000` and ExamVector runs locally — no internet connection needed after the initial download.
 
 ---
 
