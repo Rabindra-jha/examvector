@@ -10,6 +10,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>examvector</title>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="7339d9ea-4d86-411c-9f69-2432941d260a"></script>
+  <script>
+  const redirect = sessionStorage.getItem('redirect');
+  if (redirect) {
+    sessionStorage.removeItem('redirect');
+    window.history.replaceState(null, '', '/examvector' + redirect);
+  }
+</script>
   <script type="module" crossorigin src="/examvector/assets/index-D5yPBdAv.js"></script>
   <link rel="stylesheet" crossorigin href="/examvector/assets/index-D8rtb4Mg.css">
 </head>
